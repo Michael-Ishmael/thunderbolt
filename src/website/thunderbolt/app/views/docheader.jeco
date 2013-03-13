@@ -1,0 +1,3 @@
+<div class="item">
+    <%= @title or "<i>No title<i>" %>
+</div>
