@@ -1,11 +1,11 @@
 #################
 ## Intellij
 #################
+workspace.xml
 
 #################
 ## Eclipse
 #################
-.idea/workspace.xml
 
 *.pydevproject
 .project
