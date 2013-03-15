@@ -1,0 +1,42 @@
+Mar 11, 2013 1:56:25 PM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 6.
+Mar 11, 2013 1:56:25 PM org.neo4j.server.logging.Logger log
+INFO: Loaded neo4j tuning properties from conf/neo4j.properties
+Mar 11, 2013 1:56:26 PM org.neo4j.server.logging.Logger log
+SEVERE: Failed to start database.
+Mar 11, 2013 1:56:26 PM org.neo4j.server.logging.Logger log
+SEVERE: 
+java.lang.IllegalStateException: Database locked.
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.create(InternalAbstractGraphDatabase.java:289)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.run(InternalAbstractGraphDatabase.java:227)
+	at org.neo4j.kernel.EmbeddedGraphDatabase.<init>(EmbeddedGraphDatabase.java:79)
+	at org.neo4j.graphdb.factory.GraphDatabaseFactory$1.newDatabase(GraphDatabaseFactory.java:70)
+	at org.neo4j.graphdb.factory.GraphDatabaseBuilder.newGraphDatabase(GraphDatabaseBuilder.java:205)
+	at org.neo4j.server.database.CommunityDatabase.start(CommunityDatabase.java:55)
+	at org.neo4j.server.AbstractNeoServer.start(AbstractNeoServer.java:124)
+	at org.neo4j.server.Bootstrapper.start(Bootstrapper.java:85)
+	at org.neo4j.server.Bootstrapper.main(Bootstrapper.java:49)
+
+Mar 11, 2013 1:56:26 PM org.neo4j.server.logging.Logger log
+SEVERE: Failed to start Neo Server on port [7474]
+Mar 11, 2013 2:09:21 PM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 6.
+Mar 11, 2013 2:09:21 PM org.neo4j.server.logging.Logger log
+INFO: Loaded neo4j tuning properties from conf/neo4j.properties
+Mar 11, 2013 2:09:22 PM org.neo4j.server.logging.Logger log
+SEVERE: Failed to start database.
+Mar 11, 2013 2:09:22 PM org.neo4j.server.logging.Logger log
+SEVERE: 
+java.lang.IllegalStateException: Database locked.
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.create(InternalAbstractGraphDatabase.java:289)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.run(InternalAbstractGraphDatabase.java:227)
+	at org.neo4j.kernel.EmbeddedGraphDatabase.<init>(EmbeddedGraphDatabase.java:79)
+	at org.neo4j.graphdb.factory.GraphDatabaseFactory$1.newDatabase(GraphDatabaseFactory.java:70)
+	at org.neo4j.graphdb.factory.GraphDatabaseBuilder.newGraphDatabase(GraphDatabaseBuilder.java:205)
+	at org.neo4j.server.database.CommunityDatabase.start(CommunityDatabase.java:55)
+	at org.neo4j.server.AbstractNeoServer.start(AbstractNeoServer.java:124)
+	at org.neo4j.server.Bootstrapper.start(Bootstrapper.java:85)
+	at org.neo4j.server.Bootstrapper.main(Bootstrapper.java:49)
+
+Mar 11, 2013 2:09:22 PM org.neo4j.server.logging.Logger log
+SEVERE: Failed to start Neo Server on port [7474]

@@ -1,0 +1,580 @@
+Mar 11, 2013 1:22:46 PM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 6.
+Mar 11, 2013 1:22:47 PM org.neo4j.server.logging.Logger log
+INFO: Loaded neo4j tuning properties from conf/neo4j.properties
+Mar 11, 2013 1:22:52 PM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Mar 11, 2013 1:22:52 PM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [80] threads available
+Mar 11, 2013 1:22:52 PM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Mar 11, 2013 1:22:52 PM org.neo4j.server.logging.Logger log
+INFO: No SSL certificate found, generating a self-signed certificate..
+Mar 11, 2013 1:22:52 PM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Mar 11, 2013 1:22:52 PM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Mar 11, 2013 1:22:52 PM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Mar 11, 2013 1:22:52 PM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Mar 11, 2013 1:22:52 PM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Mar 11, 2013 1:22:52 PM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Mar 11, 2013 1:22:52 PM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Mar 11, 2013 1:22:53 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.webadmin.rest
+Mar 11, 2013 1:22:53 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.webadmin.rest.JmxService
+  class org.neo4j.server.webadmin.rest.ConsoleService
+  class org.neo4j.server.webadmin.rest.MonitorService
+  class org.neo4j.server.webadmin.rest.RootService
+Mar 11, 2013 1:22:53 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 11, 2013 1:22:53 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 11, 2013 1:22:53 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.rest.web
+Mar 11, 2013 1:22:53 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.rest.web.ExtensionService
+  class org.neo4j.server.rest.web.DatabaseMetadataService
+  class org.neo4j.server.rest.web.BatchOperationService
+  class org.neo4j.server.rest.web.RestfulGraphDatabase
+  class org.neo4j.server.rest.web.CypherService
+  class org.neo4j.server.rest.web.ResourcesService
+Mar 11, 2013 1:22:53 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 11, 2013 1:22:53 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 11, 2013 1:22:53 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.rest.discovery
+Mar 11, 2013 1:22:53 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.rest.discovery.DiscoveryService
+Mar 11, 2013 1:22:53 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 11, 2013 1:22:53 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 11, 2013 1:22:54 PM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Mar 11, 2013 2:13:44 PM org.neo4j.server.logging.Logger log
+INFO: Neo4j Server shutdown initiated by kill signal
+Mar 11, 2013 2:14:00 PM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 6.
+Mar 11, 2013 2:14:01 PM org.neo4j.server.logging.Logger log
+INFO: Loaded neo4j tuning properties from conf/neo4j.properties
+Mar 11, 2013 2:14:03 PM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Mar 11, 2013 2:14:03 PM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [80] threads available
+Mar 11, 2013 2:14:03 PM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Mar 11, 2013 2:14:03 PM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Mar 11, 2013 2:14:03 PM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Mar 11, 2013 2:14:03 PM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Mar 11, 2013 2:14:03 PM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Mar 11, 2013 2:14:03 PM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Mar 11, 2013 2:14:03 PM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Mar 11, 2013 2:14:03 PM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Mar 11, 2013 2:14:03 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.webadmin.rest
+Mar 11, 2013 2:14:03 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.webadmin.rest.JmxService
+  class org.neo4j.server.webadmin.rest.RootService
+  class org.neo4j.server.webadmin.rest.MonitorService
+  class org.neo4j.server.webadmin.rest.ConsoleService
+Mar 11, 2013 2:14:03 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 11, 2013 2:14:04 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 11, 2013 2:14:04 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.rest.web
+Mar 11, 2013 2:14:04 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.rest.web.ExtensionService
+  class org.neo4j.server.rest.web.RestfulGraphDatabase
+  class org.neo4j.server.rest.web.CypherService
+  class org.neo4j.server.rest.web.DatabaseMetadataService
+  class org.neo4j.server.rest.web.BatchOperationService
+  class org.neo4j.server.rest.web.ResourcesService
+Mar 11, 2013 2:14:04 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 11, 2013 2:14:04 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 11, 2013 2:14:04 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.rest.discovery
+Mar 11, 2013 2:14:04 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.rest.discovery.DiscoveryService
+Mar 11, 2013 2:14:04 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 11, 2013 2:14:04 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 11, 2013 2:14:05 PM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Mar 11, 2013 2:15:51 PM org.neo4j.server.logging.Logger log
+INFO: Neo4j Server shutdown initiated by kill signal
+Mar 11, 2013 2:16:02 PM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 6.
+Mar 11, 2013 2:16:02 PM org.neo4j.server.logging.Logger log
+INFO: Loaded neo4j tuning properties from conf/neo4j.properties
+Mar 11, 2013 2:16:04 PM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Mar 11, 2013 2:16:04 PM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [80] threads available
+Mar 11, 2013 2:16:04 PM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Mar 11, 2013 2:16:05 PM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Mar 11, 2013 2:16:05 PM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Mar 11, 2013 2:16:05 PM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Mar 11, 2013 2:16:05 PM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Mar 11, 2013 2:16:05 PM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Mar 11, 2013 2:16:05 PM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Mar 11, 2013 2:16:05 PM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Mar 11, 2013 2:16:05 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.webadmin.rest
+Mar 11, 2013 2:16:05 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.webadmin.rest.MonitorService
+  class org.neo4j.server.webadmin.rest.ConsoleService
+  class org.neo4j.server.webadmin.rest.RootService
+  class org.neo4j.server.webadmin.rest.JmxService
+Mar 11, 2013 2:16:05 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 11, 2013 2:16:05 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 11, 2013 2:16:06 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.rest.web
+Mar 11, 2013 2:16:06 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.rest.web.RestfulGraphDatabase
+  class org.neo4j.server.rest.web.BatchOperationService
+  class org.neo4j.server.rest.web.CypherService
+  class org.neo4j.server.rest.web.ExtensionService
+  class org.neo4j.server.rest.web.DatabaseMetadataService
+  class org.neo4j.server.rest.web.ResourcesService
+Mar 11, 2013 2:16:06 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 11, 2013 2:16:06 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 11, 2013 2:16:06 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.rest.discovery
+Mar 11, 2013 2:16:06 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.rest.discovery.DiscoveryService
+Mar 11, 2013 2:16:06 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 11, 2013 2:16:06 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 11, 2013 2:16:06 PM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Mar 11, 2013 3:42:18 PM org.neo4j.server.logging.Logger log
+INFO: Neo4j Server shutdown initiated by kill signal
+Mar 12, 2013 1:50:49 PM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 6.
+Mar 12, 2013 1:50:50 PM org.neo4j.server.logging.Logger log
+INFO: Loaded neo4j tuning properties from conf/neo4j.properties
+Mar 12, 2013 1:50:52 PM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Mar 12, 2013 1:50:52 PM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [80] threads available
+Mar 12, 2013 1:50:52 PM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Mar 12, 2013 1:50:53 PM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Mar 12, 2013 1:50:53 PM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Mar 12, 2013 1:50:53 PM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Mar 12, 2013 1:50:53 PM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Mar 12, 2013 1:50:53 PM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Mar 12, 2013 1:50:53 PM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Mar 12, 2013 1:50:53 PM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Mar 12, 2013 1:50:53 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.webadmin.rest
+Mar 12, 2013 1:50:53 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.webadmin.rest.RootService
+  class org.neo4j.server.webadmin.rest.ConsoleService
+  class org.neo4j.server.webadmin.rest.MonitorService
+  class org.neo4j.server.webadmin.rest.JmxService
+Mar 12, 2013 1:50:53 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 12, 2013 1:50:54 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 12, 2013 1:50:54 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.rest.web
+Mar 12, 2013 1:50:54 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.rest.web.BatchOperationService
+  class org.neo4j.server.rest.web.ResourcesService
+  class org.neo4j.server.rest.web.ExtensionService
+  class org.neo4j.server.rest.web.RestfulGraphDatabase
+  class org.neo4j.server.rest.web.DatabaseMetadataService
+  class org.neo4j.server.rest.web.CypherService
+Mar 12, 2013 1:50:54 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 12, 2013 1:50:54 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 12, 2013 1:50:54 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.rest.discovery
+Mar 12, 2013 1:50:54 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.rest.discovery.DiscoveryService
+Mar 12, 2013 1:50:54 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 12, 2013 1:50:54 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 12, 2013 1:50:55 PM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Mar 12, 2013 3:09:31 PM org.neo4j.server.logging.Logger log
+INFO: Neo4j Server shutdown initiated by kill signal
+Mar 15, 2013 9:57:59 AM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 6.
+Mar 15, 2013 9:58:00 AM org.neo4j.server.logging.Logger log
+INFO: Loaded neo4j tuning properties from conf/neo4j.properties
+Mar 15, 2013 9:58:03 AM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Mar 15, 2013 9:58:03 AM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [80] threads available
+Mar 15, 2013 9:58:03 AM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Mar 15, 2013 9:58:04 AM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Mar 15, 2013 9:58:05 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Mar 15, 2013 9:58:05 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Mar 15, 2013 9:58:05 AM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Mar 15, 2013 9:58:05 AM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Mar 15, 2013 9:58:05 AM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Mar 15, 2013 9:58:05 AM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Mar 15, 2013 9:58:05 AM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.webadmin.rest
+Mar 15, 2013 9:58:05 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.webadmin.rest.RootService
+  class org.neo4j.server.webadmin.rest.JmxService
+  class org.neo4j.server.webadmin.rest.ConsoleService
+  class org.neo4j.server.webadmin.rest.MonitorService
+Mar 15, 2013 9:58:05 AM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 15, 2013 9:58:06 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 15, 2013 9:58:06 AM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.rest.web
+Mar 15, 2013 9:58:06 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.rest.web.DatabaseMetadataService
+  class org.neo4j.server.rest.web.ExtensionService
+  class org.neo4j.server.rest.web.RestfulGraphDatabase
+  class org.neo4j.server.rest.web.ResourcesService
+  class org.neo4j.server.rest.web.CypherService
+  class org.neo4j.server.rest.web.BatchOperationService
+Mar 15, 2013 9:58:06 AM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 15, 2013 9:58:06 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 15, 2013 9:58:06 AM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.rest.discovery
+Mar 15, 2013 9:58:06 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.rest.discovery.DiscoveryService
+Mar 15, 2013 9:58:06 AM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 15, 2013 9:58:06 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 15, 2013 9:58:07 AM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Mar 15, 2013 12:38:39 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The RuntimeException could not be mapped to a response, re-throwing to the HTTP container
+org.neo4j.kernel.DeadlockDetectedException: Don't panic.
+
+A deadlock scenario has been detected and avoided. This means that two or more transactions, which were holding locks, were wanting to await locks held by one another, which would have resulted in a deadlock between these transactions. This exception was thrown instead of ending up in that deadlock.
+
+See the deadlock section in the Neo4j manual for how to avoid this: http://docs.neo4j.org/chunked/stable/transactions-deadlocks.html
+
+Details: 'Transaction(80)[STATUS_ACTIVE,Resources=1] can't wait on resource RWLock[Lockable relationship #27] since => Transaction(80)[STATUS_ACTIVE,Resources=1] <-[:HELD_BY]- RWLock[Node[26]] <-[:WAITING_FOR]- Transaction(79)[STATUS_ACTIVE,Resources=0] <-[:HELD_BY]- RWLock[Lockable relationship #27]'.
+	at org.neo4j.kernel.impl.transaction.RagManager.checkWaitOnRecursive(RagManager.java:218)
+	at org.neo4j.kernel.impl.transaction.RagManager.checkWaitOnRecursive(RagManager.java:246)
+	at org.neo4j.kernel.impl.transaction.RagManager.checkWaitOn(RagManager.java:185)
+	at org.neo4j.kernel.impl.transaction.RWLock.acquireWriteLock(RWLock.java:349)
+	at org.neo4j.kernel.impl.transaction.LockManager.getWriteLock(LockManager.java:164)
+	at org.neo4j.kernel.impl.transaction.LockManager.getWriteLock(LockManager.java:130)
+	at org.neo4j.kernel.impl.nioneo.xa.WriteTransaction.getWriteLock(WriteTransaction.java:875)
+	at org.neo4j.kernel.impl.nioneo.xa.WriteTransaction.disconnectRelationship(WriteTransaction.java:814)
+	at org.neo4j.kernel.impl.nioneo.xa.WriteTransaction.relDelete(WriteTransaction.java:694)
+	at org.neo4j.kernel.impl.persistence.PersistenceManager.relDelete(PersistenceManager.java:166)
+	at org.neo4j.kernel.impl.core.NodeManager.deleteRelationship(NodeManager.java:1005)
+	at org.neo4j.kernel.impl.core.RelationshipImpl.delete(RelationshipImpl.java:145)
+	at org.neo4j.kernel.impl.core.RelationshipProxy.delete(RelationshipProxy.java:62)
+	at org.neo4j.server.rest.web.DatabaseActions.deleteRelationship(DatabaseActions.java:609)
+	at org.neo4j.server.rest.web.RestfulGraphDatabase.deleteRelationship(RestfulGraphDatabase.java:446)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:699)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:926)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+
+Mar 15, 2013 12:38:45 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The RuntimeException could not be mapped to a response, re-throwing to the HTTP container
+org.neo4j.kernel.DeadlockDetectedException: Don't panic.
+
+A deadlock scenario has been detected and avoided. This means that two or more transactions, which were holding locks, were wanting to await locks held by one another, which would have resulted in a deadlock between these transactions. This exception was thrown instead of ending up in that deadlock.
+
+See the deadlock section in the Neo4j manual for how to avoid this: http://docs.neo4j.org/chunked/stable/transactions-deadlocks.html
+
+Details: 'Transaction(104)[STATUS_ACTIVE,Resources=1] can't wait on resource RWLock[Lockable relationship #28] since => Transaction(104)[STATUS_ACTIVE,Resources=1] <-[:HELD_BY]- RWLock[Node[27]] <-[:WAITING_FOR]- Transaction(103)[STATUS_ACTIVE,Resources=0] <-[:HELD_BY]- RWLock[Lockable relationship #28]'.
+	at org.neo4j.kernel.impl.transaction.RagManager.checkWaitOnRecursive(RagManager.java:218)
+	at org.neo4j.kernel.impl.transaction.RagManager.checkWaitOnRecursive(RagManager.java:246)
+	at org.neo4j.kernel.impl.transaction.RagManager.checkWaitOn(RagManager.java:185)
+	at org.neo4j.kernel.impl.transaction.RWLock.acquireWriteLock(RWLock.java:349)
+	at org.neo4j.kernel.impl.transaction.LockManager.getWriteLock(LockManager.java:164)
+	at org.neo4j.kernel.impl.transaction.LockManager.getWriteLock(LockManager.java:130)
+	at org.neo4j.kernel.impl.nioneo.xa.WriteTransaction.getWriteLock(WriteTransaction.java:875)
+	at org.neo4j.kernel.impl.nioneo.xa.WriteTransaction.disconnectRelationship(WriteTransaction.java:814)
+	at org.neo4j.kernel.impl.nioneo.xa.WriteTransaction.relDelete(WriteTransaction.java:694)
+	at org.neo4j.kernel.impl.persistence.PersistenceManager.relDelete(PersistenceManager.java:166)
+	at org.neo4j.kernel.impl.core.NodeManager.deleteRelationship(NodeManager.java:1005)
+	at org.neo4j.kernel.impl.core.RelationshipImpl.delete(RelationshipImpl.java:145)
+	at org.neo4j.kernel.impl.core.RelationshipProxy.delete(RelationshipProxy.java:62)
+	at org.neo4j.server.rest.web.DatabaseActions.deleteRelationship(DatabaseActions.java:609)
+	at org.neo4j.server.rest.web.RestfulGraphDatabase.deleteRelationship(RestfulGraphDatabase.java:446)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:699)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:926)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+
+Mar 15, 2013 2:12:25 PM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 6.
+Mar 15, 2013 2:12:25 PM org.neo4j.server.logging.Logger log
+INFO: Loaded neo4j tuning properties from conf/neo4j.properties
+Mar 15, 2013 2:12:27 PM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Mar 15, 2013 2:12:27 PM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [80] threads available
+Mar 15, 2013 2:12:27 PM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Mar 15, 2013 2:12:28 PM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Mar 15, 2013 2:12:28 PM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Mar 15, 2013 2:12:28 PM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Mar 15, 2013 2:12:28 PM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Mar 15, 2013 2:12:28 PM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Mar 15, 2013 2:12:28 PM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Mar 15, 2013 2:12:28 PM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Mar 15, 2013 2:12:28 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.webadmin.rest
+Mar 15, 2013 2:12:28 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.webadmin.rest.JmxService
+  class org.neo4j.server.webadmin.rest.ConsoleService
+  class org.neo4j.server.webadmin.rest.MonitorService
+  class org.neo4j.server.webadmin.rest.RootService
+Mar 15, 2013 2:12:28 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 15, 2013 2:12:28 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 15, 2013 2:12:29 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.rest.web
+Mar 15, 2013 2:12:29 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.rest.web.DatabaseMetadataService
+  class org.neo4j.server.rest.web.BatchOperationService
+  class org.neo4j.server.rest.web.ExtensionService
+  class org.neo4j.server.rest.web.RestfulGraphDatabase
+  class org.neo4j.server.rest.web.CypherService
+  class org.neo4j.server.rest.web.ResourcesService
+Mar 15, 2013 2:12:29 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 15, 2013 2:12:29 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 15, 2013 2:12:29 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.rest.discovery
+Mar 15, 2013 2:12:29 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.rest.discovery.DiscoveryService
+Mar 15, 2013 2:12:29 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 15, 2013 2:12:29 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 15, 2013 2:12:29 PM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Mar 15, 2013 4:40:38 PM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 6.
+Mar 15, 2013 4:40:38 PM org.neo4j.server.logging.Logger log
+INFO: Loaded neo4j tuning properties from conf/neo4j.properties
+Mar 15, 2013 4:40:39 PM org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog doInternalRecovery
+INFO: Non clean shutdown detected on log [C:\michael\local\pa\thunderbolt\neo4j\data\graph.db\nioneo_logical.log.1]. Recovery started ...
+Mar 15, 2013 4:40:48 PM org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog doInternalRecovery
+INFO: Non clean shutdown detected on log [C:\michael\local\pa\thunderbolt\neo4j\data\graph.db\index\lucene.log.1]. Recovery started ...
+Mar 15, 2013 4:40:56 PM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Mar 15, 2013 4:40:56 PM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [80] threads available
+Mar 15, 2013 4:40:56 PM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Mar 15, 2013 4:40:57 PM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Mar 15, 2013 4:40:57 PM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Mar 15, 2013 4:40:57 PM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Mar 15, 2013 4:40:57 PM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Mar 15, 2013 4:40:57 PM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Mar 15, 2013 4:40:57 PM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Mar 15, 2013 4:40:57 PM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Mar 15, 2013 4:40:57 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.webadmin.rest
+Mar 15, 2013 4:40:57 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.webadmin.rest.MonitorService
+  class org.neo4j.server.webadmin.rest.JmxService
+  class org.neo4j.server.webadmin.rest.RootService
+  class org.neo4j.server.webadmin.rest.ConsoleService
+Mar 15, 2013 4:40:57 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 15, 2013 4:40:57 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 15, 2013 4:40:57 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.rest.web
+Mar 15, 2013 4:40:57 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.rest.web.BatchOperationService
+  class org.neo4j.server.rest.web.ResourcesService
+  class org.neo4j.server.rest.web.RestfulGraphDatabase
+  class org.neo4j.server.rest.web.DatabaseMetadataService
+  class org.neo4j.server.rest.web.ExtensionService
+  class org.neo4j.server.rest.web.CypherService
+Mar 15, 2013 4:40:57 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 15, 2013 4:40:57 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 15, 2013 4:40:58 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.rest.discovery
+Mar 15, 2013 4:40:58 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.rest.discovery.DiscoveryService
+Mar 15, 2013 4:40:58 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Mar 15, 2013 4:40:58 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 15, 2013 4:40:58 PM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
