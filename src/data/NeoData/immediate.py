@@ -1,7 +1,5 @@
 import data.PublicationRepository as pr
 
-pr.CreatePublicationNodes()
-
-
+pr.CreateDocumentNodes()
 
 __author__ = 'MichaelI'

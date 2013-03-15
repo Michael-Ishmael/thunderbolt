@@ -1,6 +1,7 @@
 import re
 import cherrypy
 from cherrypy import Application
+from NeoData.data import PublicationRepository
 
 
 class Resource(object):
