@@ -1,5 +1,6 @@
-import data.PublicationRepository as pr
+import data.DocumentRepository as pr
 
-pr.CreateDocumentNodes()
+dr = pr.DocumentRepository()
+dr.GetAllDocuments()
 
 __author__ = 'MichaelI'
