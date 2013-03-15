@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" name="Default" comment="">
+    <list default="true" id="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" name="Default" comment="First check in of website document list, code not working yet">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/.gitkeep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thunderbolt.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363215424756" ignored="false" />
-    <file path="/docheader.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363191035229" ignored="false" />
+    <file path="/Dummy.txt" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363281587934" ignored="false" />
+    <file path="/docheader.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363191624541" ignored="false" />
+    <file path="/docheaders.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363194673621" ignored="false" />
+    <file path="/documentlist.eco" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363193626689" ignored="false" />
+    <file path="/document.eco" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363193630533" ignored="false" />
+    <file path="/index.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363194741528" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../../git/Rommel/michaeli_temp/src/clauseView.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363272927672" ignored="false" />
+    <file path="/clauseView.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363252851281" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../../git/Rommel/michaeli_temp/src/clauseController.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363272370608" ignored="false" />
+    <file path="/clauseController.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363272368158" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../../git/Rommel/michaeli_temp/scripts/clauseController.js" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363272392484" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../../git/Rommel/michaeli_temp/src/clause.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363272267331" ignored="false" />
+    <file path="/clause.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363272267331" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../../git/Rommel/michaeli_temp/scripts/clause.js" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363272296964" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../../git/Rommel/michaeli_temp/src/clauseVisitor.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363269453328" ignored="false" />
+    <file path="/clauseVisitor.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363269217814" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../../git/Rommel/michaeli_temp/scripts/clauseVisitor.js" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363269693571" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../../git/Rommel/michaeli_temp/index.html" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363269480227" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../../git/Rommel/michaeli_temp/scripts/clauseView.js" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363272932862" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +54,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docheader.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="docheaders_list.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/docheaders_list.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="46" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slug.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/slug.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.28099173">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docheaders.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/docheaders.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="21" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docheader.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/docheader.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="26" selection-start="396" selection-end="396" vertical-scroll-proportion="0.30708662">
+            <state line="13" column="21" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="document.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/document.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="4" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -65,6 +128,11 @@
       <list>
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/app/models/docheader.coffee" />
+        <option value="$PROJECT_DIR$/app/views/documentlist.eco" />
+        <option value="$PROJECT_DIR$/app/views/document.eco" />
+        <option value="$PROJECT_DIR$/app/controllers/docheaders.coffee" />
+        <option value="$PROJECT_DIR$/app/index.coffee" />
+        <option value="$PROJECT_DIR$/slug.json" />
       </list>
     </option>
   </component>
@@ -80,7 +148,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -128,7 +196,81 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thunderbolt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thunderbolt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thunderbolt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thunderbolt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thunderbolt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thunderbolt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thunderbolt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thunderbolt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thunderbolt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thunderbolt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -150,6 +292,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thunderbolt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thunderbolt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thunderbolt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thunderbolt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -168,6 +346,9 @@
       <option name="filePath" />
       <option name="scope" value="ALL" />
       <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <list size="0" />
@@ -200,11 +381,23 @@
       <created>1363190187622</created>
       <updated>1363190187622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First check in of website document list, code not working yet">
+      <created>1363195151415</created>
+      <updated>1363195151415</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First check in of website document list, code not working yet 2">
+      <created>1363195311924</created>
+      <updated>1363195311924</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update to include lib/list">
+      <created>1363281591317</created>
+      <updated>1363281591317</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="806" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -268,7 +461,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="First check in of website" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update to include lib/list" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -283,11 +476,49 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="First check in of website" />
+    <MESSAGE value="First check in of website document list, code not working yet" />
+    <MESSAGE value="First check in of website document list, code not working yet 2" />
+    <MESSAGE value="Update to include lib/list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="23" selection-start="1677" selection-end="1677" vertical-scroll-proportion="0.35738832">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/setup.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/spine/test/specs/route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="4" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.7116279">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/docheader.jeco">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/documentlist.eco">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="126" selection-end="126" vertical-scroll-proportion="0.08028335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
@@ -295,23 +526,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/docheader.coffee">
+    <entry file="file://$PROJECT_DIR$/app/index.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="124" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
+        <state line="14" column="4" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/app/controllers/docheaders.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+        <state line="20" column="21" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/docheader.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="396" selection-end="396" vertical-scroll-proportion="0.30708662">
+        <state line="13" column="21" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/document.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/docheaders_list.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="46" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slug.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.28099173">
           <folding />
         </state>
       </provider>
