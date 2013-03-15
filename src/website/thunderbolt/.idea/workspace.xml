@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" name="Default" comment="First check in of website document list, code not working yet">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../data/NeoData/data/DocumentRepository.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../data/NeoData/data/TestRepository.py" />
+      <change type="DELETED" beforePath="C:\michael\local\pa\thunderbolt\thunderbolt\src\data\NeoData\data\PublicationRepository.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../data/.idea/data.iml" afterPath="$PROJECT_DIR$/../../data/.idea/data.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../data/NeoData/immediate.py" afterPath="$PROJECT_DIR$/../../data/NeoData/immediate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../webservice/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../webservice/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../webservice/.idea/webservice.iml" afterPath="$PROJECT_DIR$/../../webservice/.idea/webservice.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../webservice/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../webservice/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thunderbolt.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363281587934" ignored="false" />
+    <file path="/Dummy.txt" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363365782331" ignored="false" />
     <file path="/docheader.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363191624541" ignored="false" />
     <file path="/docheaders.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363194673621" ignored="false" />
     <file path="/documentlist.eco" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363193626689" ignored="false" />
@@ -66,7 +73,7 @@
       <file leaf-file-name="slug.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/slug.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.28099173">
+            <state line="14" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.33286715">
               <folding />
             </state>
           </provider>
@@ -137,9 +144,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="806" />
+    <option name="x" value="281" />
+    <option name="y" value="151" />
+    <option name="width" value="1296" />
+    <option name="height" value="924" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -167,7 +175,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -330,12 +337,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -397,13 +406,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="281" y="151" width="1296" height="924" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1778405" sideWeight="0.90261626" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17740652" sideWeight="0.90261626" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -484,39 +493,57 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/structural.rnc">
+    <entry file="file://$PROJECT_DIR$/app/controllers/docheaders.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="23" selection-start="1677" selection-end="1677" vertical-scroll-proportion="0.35738832">
+        <state line="20" column="21" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/setup.coffee">
+    <entry file="file://$PROJECT_DIR$/app/models/docheader.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/document.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/spine/test/specs/route.js">
+    <entry file="file://$PROJECT_DIR$/app/index.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="4" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.7116279">
+        <state line="14" column="4" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="23" selection-start="1677" selection-end="1677" vertical-scroll-proportion="0.35738832" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/setup.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/spine/test/specs/route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="4" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.7116279" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/docheader.jeco">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/documentlist.eco">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="126" selection-end="126" vertical-scroll-proportion="0.08028335">
-          <folding />
-        </state>
+        <state line="4" column="17" selection-start="126" selection-end="126" vertical-scroll-proportion="0.08028335" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
@@ -563,7 +590,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/slug.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.28099173">
+        <state line="14" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.33286715">
           <folding />
         </state>
       </provider>
