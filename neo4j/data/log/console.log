@@ -1,0 +1,81 @@
+3/15/13 8:55:14 PM org.neo4j.server.database.Database INFO: Loaded neo4j tuning properties from conf/neo4j.properties
+20:55:24.629 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=380b)
+20:55:24.820 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=45b)
+20:55:24.869 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.propertystore.db.strings] brickCount=0 brickSize=297728b mappedMem=297795584b (storeSize=896b)
+20:55:24.991 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=380b)
+20:55:25.542 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.propertystore.db.index] brickCount=0 brickSize=1044b mappedMem=1048576b (storeSize=81b)
+20:55:25.657 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.propertystore.db.arrays] brickCount=0 brickSize=337536b mappedMem=337641472b (storeSize=128b)
+20:55:25.803 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.propertystore.db] brickCount=0 brickSize=350222b mappedMem=350224384b (storeSize=1435b)
+20:55:26.043 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.relationshipstore.db] brickCount=0 brickSize=428835b mappedMem=428867584b (storeSize=1914b)
+20:55:26.175 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.nodestore.db] brickCount=0 brickSize=96462b mappedMem=96468992b (storeSize=270b)
+20:55:26.199 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+20:55:27.093 [main] INFO  neo4j.xafactory - Opened logical log [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/nioneo_logical.log.1] version=7, lastTxId=122 (clean)
+3/15/13 8:55:44 PM org.neo4j.server.database.Database INFO: Successfully started database
+3/15/13 8:55:44 PM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+3/15/13 8:55:44 PM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.rest.discovery] at [/]
+3/15/13 8:56:07 PM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.rest.web] at [/db/data]
+3/15/13 8:56:08 PM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+3/15/13 8:56:08 PM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+3/15/13 8:56:08 PM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.webadmin.rest] at [/db/manage]
+3/15/13 8:56:08 PM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+3/15/13 8:56:09 PM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+20:56:10.598 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+3/15/13 8:56:11 PM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Logger not configured, logging to std out instead: [FINE] Found [jar:file:/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/system/lib/neo4j-server-1.8.2-static-web.jar!/webadmin-html]
+Logger not configured, logging to std out instead: [FINE] Mounting static content from [jar:file:/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/system/lib/neo4j-server-1.8.2-static-web.jar!/webadmin-html] at [/webadmin]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/db/manage]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/db/data]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/]
+20:56:12.654 [main] INFO  org.mortbay.log - jetty-6.1.25
+20:56:13.830 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+20:56:35.407 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+20:56:37.927 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+3/15/13 8:56:37 PM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5889949a
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.console.GremlinSession@706a48e4
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5889949a
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.console.GremlinSession@706a48e4
+3/15/13 11:49:22 PM org.neo4j.server.CommunityBootstrapper INFO: Neo4j Server shutdown initiated by kill signal
+23:49:22.885 [Thread-9] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+23:49:22.885 [Thread-9] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474
+3/16/13 8:34:17 PM org.neo4j.server.database.Database INFO: Loaded neo4j tuning properties from conf/neo4j.properties
+20:34:22.664 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=380b)
+20:34:22.855 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=45b)
+20:34:22.909 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.propertystore.db.strings] brickCount=0 brickSize=297728b mappedMem=297795584b (storeSize=896b)
+20:34:23.090 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=380b)
+20:34:23.210 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.propertystore.db.index] brickCount=0 brickSize=1044b mappedMem=1048576b (storeSize=81b)
+20:34:23.255 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.propertystore.db.arrays] brickCount=0 brickSize=337536b mappedMem=337641472b (storeSize=128b)
+20:34:23.330 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.propertystore.db] brickCount=0 brickSize=350222b mappedMem=350224384b (storeSize=1435b)
+20:34:23.400 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.relationshipstore.db] brickCount=0 brickSize=428835b mappedMem=428867584b (storeSize=1914b)
+20:34:23.421 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore.nodestore.db] brickCount=0 brickSize=96462b mappedMem=96468992b (storeSize=270b)
+20:34:23.440 [main] INFO  neo4j.neostore - [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+20:34:23.591 [main] INFO  neo4j.xafactory - Opened logical log [/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/data/graph.db/nioneo_logical.log.1] version=8, lastTxId=124 (clean)
+3/16/13 8:34:32 PM org.neo4j.server.database.Database INFO: Successfully started database
+3/16/13 8:34:32 PM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+3/16/13 8:34:32 PM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.rest.discovery] at [/]
+3/16/13 8:34:56 PM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.rest.web] at [/db/data]
+3/16/13 8:34:57 PM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+3/16/13 8:34:57 PM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+3/16/13 8:34:57 PM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.webadmin.rest] at [/db/manage]
+3/16/13 8:34:57 PM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+3/16/13 8:34:59 PM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+20:34:59.755 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+3/16/13 8:34:59 PM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Logger not configured, logging to std out instead: [FINE] Found [jar:file:/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/system/lib/neo4j-server-1.8.2-static-web.jar!/webadmin-html]
+Logger not configured, logging to std out instead: [FINE] Mounting static content from [jar:file:/Users/funhead/Dev/Work/Thunderbolt/thunderbolt/neo4j/system/lib/neo4j-server-1.8.2-static-web.jar!/webadmin-html] at [/webadmin]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/db/manage]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/db/data]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/]
+20:35:00.060 [main] INFO  org.mortbay.log - jetty-6.1.25
+20:35:00.526 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+20:35:17.138 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+20:35:18.390 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+3/16/13 8:35:18 PM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@298eb7e0
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.console.GremlinSession@3d62b333

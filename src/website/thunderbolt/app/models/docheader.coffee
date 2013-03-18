@@ -1,9 +1,11 @@
 Spine = require('spine')
 
 class Docheader extends Spine.Model
-  @configure 'Docheader', 'id', 'title', 'date', 'url', 'sourceName', 'sourceId', 'analystName', 'analystId', 'status', 'rel'
+  @configure 'Docheader', 'id', 'title', 'date', 'sourceId' #, 'url', 'sourceName', 'sourceId', 'analystName', 'analystId', 'status', 'rel'
 
-  @extend @Local
+  @extend Spine.Model.Ajax
+
+  @url: "http://localhost:8081/document"
 
   @filter: (query) ->
     return @all() unless query

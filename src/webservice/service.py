@@ -1,18 +1,26 @@
 import re
 import cherrypy
-from cherrypy import Application
-from NeoData.data import PublicationRepository
-
+from data.NeoData.DocumentRepository import DocumentRepository
+import simplejson as json
 
 class Resource(object):
-    def __init__(self, content):
-        self.content = content
+    def __init__(self, repository):
+        self.repository = repository
 
     exposed = True
 
     @cherrypy.tools.json_out()
-    def GET(self):
-        return self.content
+    def GET(self, id=-1):
+        cherrypy.response.headers["Access-Control-Allow-Origin"] = "*"
+        if id < 1:
+            return self.repository.GetItems()
+        else:
+            return self.repository.GetItem(id)
+
+    def OPTIONS(self):
+        cherrypy.response.headers["Access-Control-Allow-Origin"] = "*"
+        cherrypy.response.status = 200
+        return "OK"
 
     def PUT(self):
         self.content = self.from_html(cherrypy.request.body.read())
@@ -44,10 +52,11 @@ class Root(object):
 
 root = Root()
 
-root.sidewinder = Resource({'color': 'red', 'weight': 176, 'type': 'stable'})
-root.teebird = Resource({'color': 'green', 'weight': 173, 'type': 'overstable'})
-root.blowfly = Resource({'color': 'purple', 'weight': 169, 'type': 'putter'})
-root.resource_index = ResourceIndex({'sidewinder': 'sidewinder', 'teebird': 'teebird', 'blowfly': 'blowfly'})
+root.document = Resource(DocumentRepository())
+#root.sidewinder = Resource({'color': 'red', 'weight': 176, 'type': 'stable'})
+#root.teebird = Resource({'color': 'green', 'weight': 173, 'type': 'overstable'})
+#root.blowfly = Resource({'color': 'purple', 'weight': 169, 'type': 'putter'})
+#root.resource_index = ResourceIndex({'sidewinder': 'sidewinder', 'teebird': 'teebird', 'blowfly': 'blowfly'})
 
 conf = {
     'global': {
