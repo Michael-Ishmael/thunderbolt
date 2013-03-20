@@ -2,73 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" name="Default" comment="First check in of website document list, code not working yet">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../webservice/entities/Document.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../webservice/entities/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/.idea/data.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/NeoData/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/NeoData/.idea/NeoData.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/NeoData/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/NeoData/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/NeoData/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/NeoData/.idea/other.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/NeoData/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/NeoData/.idea/testrunner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/NeoData/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/NeoData/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/NeoData/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/NeoData/data/DocumentRepository.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/NeoData/data/TestRepository.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/NeoData/data/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/NeoData/immediate.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../data/__init__.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../../webservice/helloworld.py" afterPath="$PROJECT_DIR$/../../webservice/service.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../webservice/data/NeoData/NeoRepository.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../webservice/data/NeoData/SourceRepository.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../webservice/tests/SourceRepositoryTest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../webservice/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/keystore" afterPath="$PROJECT_DIR$/../../../neo4j/data/keystore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/index/lucene-store.db" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/index/lucene-store.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.nodestore.db" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.nodestore.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.arrays" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.arrays" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.index.keys" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.index.keys" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.strings" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.strings" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.relationshipstore.db" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.relationshipstore.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.relationshiptypestore.db.names" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.relationshiptypestore.db.names" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/rrd" afterPath="$PROJECT_DIR$/../../../neo4j/data/rrd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/docheader.coffee" afterPath="$PROJECT_DIR$/app/models/docheader.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/index/lucene.log.active" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/index/lucene.log.active" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../webservice/entities/Document.py" afterPath="$PROJECT_DIR$/../../webservice/entities/Document.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/log/console.log" afterPath="$PROJECT_DIR$/../../../neo4j/data/log/console.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.coffee" afterPath="$PROJECT_DIR$/app/index.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.styl" afterPath="$PROJECT_DIR$/css/index.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/index/lucene.log.1" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/index/lucene.log.1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/messages.log" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/messages.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../webservice/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../webservice/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../webservice/.idea/modules.xml" afterPath="$PROJECT_DIR$/../../webservice/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/neo4j-service.pid" afterPath="$PROJECT_DIR$/../../../neo4j/data/neo4j-service.pid" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/log/neo4j.0.0.log" afterPath="$PROJECT_DIR$/../../../neo4j/data/log/neo4j.0.0.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.id" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.nodestore.db.id" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.nodestore.db.id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.arrays.id" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.arrays.id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.id" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.index.id" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.index.id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.index.keys.id" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.index.keys.id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.index" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.strings.id" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.propertystore.db.strings.id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.relationshipstore.db.id" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.relationshipstore.db.id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.relationshiptypestore.db.id" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.relationshiptypestore.db.id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.relationshiptypestore.db.names.id" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.relationshiptypestore.db.names.id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.relationshiptypestore.db" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/neostore.relationshiptypestore.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/nioneo_logical.log.active" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/nioneo_logical.log.active" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../webservice/.idea/webservice.iml" afterPath="$PROJECT_DIR$/../../webservice/.idea/webservice.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../neo4j/data/graph.db/nioneo_logical.log.1" afterPath="$PROJECT_DIR$/../../../neo4j/data/graph.db/nioneo_logical.log.1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../webservice/service.py" afterPath="$PROJECT_DIR$/../../webservice/service.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../webservice/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../webservice/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thunderbolt.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363640289675" ignored="false" />
+    <file path="/Dummy.txt" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363821967858" ignored="false" />
     <file path="/docheader.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363191624541" ignored="false" />
     <file path="/docheaders.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363194673621" ignored="false" />
     <file path="/documentlist.eco" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363193626689" ignored="false" />
     <file path="/document.eco" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363193630533" ignored="false" />
-    <file path="/index.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363194741528" ignored="false" />
+    <file path="/index.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363820784521" ignored="false" />
     <file path="$USER_HOME$/git/Rommel/michaeli_temp/src/clauseView.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363272927672" ignored="false" />
     <file path="/clauseView.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363252851281" ignored="false" />
     <file path="$USER_HOME$/git/Rommel/michaeli_temp/src/clauseController.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363272370608" ignored="false" />
@@ -82,6 +47,13 @@
     <file path="$USER_HOME$/git/Rommel/michaeli_temp/scripts/clauseVisitor.js" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363269693571" ignored="false" />
     <file path="$USER_HOME$/git/Rommel/michaeli_temp/index.html" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363269480227" ignored="false" />
     <file path="$USER_HOME$/git/Rommel/michaeli_temp/scripts/clauseView.js" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363272932862" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../Spine/spine.contacts/app/controllers/contacts.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363724875729" ignored="false" />
+    <file path="/application.css" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363727736595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../../Spine/spine.contacts/public/application.css" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363727740297" ignored="false" />
+    <file path="/index.html" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363820620150" ignored="false" />
+    <file path="/index.styl" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363821334492" ignored="false" />
+    <file path="/gen.css" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363821071220" ignored="false" />
+    <file path="/sources.coffee" changelist="61d5bc30-bf46-495e-a22d-7dbe327f1ffd" time="1363821917424" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,43 +76,43 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="543" selection-end="543" vertical-scroll-proportion="-15.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docheaders_list.coffee" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="mixin.styl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/mixin.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="146" selection-end="180" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="source.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/source.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="7" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docheaders_list.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/docheaders_list.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+            <state line="26" column="0" selection-start="556" selection-end="556" vertical-scroll-proportion="0.59090906">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slug.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slug.json">
+      <file leaf-file-name="sources.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/sources.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="12" selection-start="89" selection-end="89" vertical-scroll-proportion="-3.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="docheaders.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/docheaders.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="27" selection-start="457" selection-end="457" vertical-scroll-proportion="-13.2">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="docheader.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/docheader.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="26" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -155,10 +127,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.27272728">
+            <state line="6" column="21" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,20 +154,23 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/app/views/documentlist.eco" />
         <option value="$PROJECT_DIR$/app/views/document.eco" />
         <option value="$PROJECT_DIR$/app/controllers/docheaders.coffee" />
-        <option value="$PROJECT_DIR$/app/index.coffee" />
         <option value="$PROJECT_DIR$/slug.json" />
         <option value="$PROJECT_DIR$/app/models/docheader.coffee" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/app/index.coffee" />
+        <option value="$PROJECT_DIR$/css/gen.css" />
+        <option value="$PROJECT_DIR$/css/index.styl" />
+        <option value="$PROJECT_DIR$/app/models/source.coffee" />
+        <option value="$PROJECT_DIR$/app/controllers/sources.coffee" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="144" />
     <option name="y" value="22" />
-    <option name="width" value="1296" />
+    <option name="width" value="1440" />
     <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -242,148 +217,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thunderbolt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -393,6 +226,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Spine/spine.contacts" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -455,13 +289,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="144" y="22" width="1296" height="806" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="806" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17674784" sideWeight="0.8830846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1947777" sideWeight="0.8830846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -542,34 +376,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/docheaders.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/docheader.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/document.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/structural.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="23" selection-start="1677" selection-end="1677" vertical-scroll-proportion="0.35738832" />
@@ -595,37 +401,37 @@
         <state line="4" column="17" selection-start="126" selection-end="126" vertical-scroll-proportion="0.08028335" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slug.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="89" selection-end="89" vertical-scroll-proportion="-3.125">
+        <state line="13" column="1" selection-start="223" selection-end="223" vertical-scroll-proportion="-8.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/docheaders.coffee">
+    <entry file="file://$PROJECT_DIR$/app/index.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="27" selection-start="457" selection-end="457" vertical-scroll-proportion="-13.2">
+        <state line="6" column="21" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/docheaders_list.coffee">
+    <entry file="file://$PROJECT_DIR$/css/mixin.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="146" selection-end="180" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/docheader.coffee">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+        <state line="25" column="0" selection-start="543" selection-end="543" vertical-scroll-proportion="-15.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="11" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -637,9 +443,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.coffee">
+    <entry file="file://$PROJECT_DIR$/app/models/docheader.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.27272728">
+        <state line="7" column="2" selection-start="233" selection-end="271" vertical-scroll-proportion="0.16483517">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/source.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sources.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/docheaders.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.06818182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/docheaders_list.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="556" selection-end="556" vertical-scroll-proportion="0.59090906">
           <folding />
         </state>
       </provider>

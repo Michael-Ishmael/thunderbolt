@@ -1,6 +1,7 @@
 import re
 import cherrypy
 from data.NeoData.DocumentRepository import DocumentRepository
+from data.NeoData.SourceRepository import SourceRepository
 import simplejson as json
 
 class Resource(object):
@@ -53,6 +54,7 @@ class Root(object):
 root = Root()
 
 root.document = Resource(DocumentRepository())
+root.source = Resource(SourceRepository())
 #root.sidewinder = Resource({'color': 'red', 'weight': 176, 'type': 'stable'})
 #root.teebird = Resource({'color': 'green', 'weight': 173, 'type': 'overstable'})
 #root.blowfly = Resource({'color': 'purple', 'weight': 169, 'type': 'putter'})
