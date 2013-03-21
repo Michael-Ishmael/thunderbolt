@@ -1,17 +1,24 @@
 require('lib/setup')
 
 Spine = require('spine')
-Docheaders = require('controllers/docheaders')
+Navigator = require('controllers/navigator')
+Navigation = require('models/navigation')
+DocHeader = require('controllers/docheaders_list')
 
 class App extends Spine.Controller
   className: 'prodApp'
 
   constructor: ->
     super
-    @docheaders = new Docheaders({el: $("#docs")})
-    @append @docheaders
+    @navigator = new Navigator({el: $("#navigation")})
+    @append @navigator
 
     Spine.Route.setup()
+
+    Navigation.load()
+
+    #Navigation.fetch()
+
 
 module.exports = App
 
