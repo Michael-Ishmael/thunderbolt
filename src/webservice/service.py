@@ -23,11 +23,14 @@ class Resource(object):
         cherrypy.response.status = 200
         return "OK"
 
-    def PUT(self):
-        self.content = self.from_html(cherrypy.request.body.read())
+    def PUT(self, id=-1):
+        cherrypy.response.headers["Access-Control-Allow-Origin"] = "*"
+        rawbody = cherrypy.request.body.read()
+        body = json.loads(rawbody)
+        self.repository.SetItem(body)
 
     def to_html(self):
-        html_item = lambda (name, value): '<div>{name}:{value}</div>'.format(**vars())
+        html_item = lambda(name, value): '<div>{name}:{value}</div>'.format(**vars())
         items = map(html_item, self.content.items())
         items = ''.join(items)
         return '<html>{items}</html>'.format(**vars())

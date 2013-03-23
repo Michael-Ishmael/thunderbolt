@@ -1,0 +1,6 @@
+<tr class="item">
+    <td><%= @id or "<i>No id<i>" %></td>
+    <td><%= @title or "<i>No title<i>" %></td>
+    <td><%= @readership or "<i>No readership<i>" %></td>
+    <td><%= @pagerate or "<i>No page rate<i>" %></td>
+</tr>

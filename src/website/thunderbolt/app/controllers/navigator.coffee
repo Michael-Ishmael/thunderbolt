@@ -7,21 +7,20 @@ class Navigator extends Spine.Controller
   className: 'navigator'
 
   elements:
-    'ul.navigation': 'items'
+    'ul.navigation': 'navBar'
 
   events:
     'click ul.navigation li': 'navigate'
 
   constructor: ->
     super
-    @html require('views/navigation')()
 
     @list = new List
-      el: @items,
+      el: @navBar,
       template: (items) ->
         lstHtml = ''
         for item in items
-          lstHtml += '<li>'+item.heading+'</li>'
+          lstHtml += '<li class="item">'+item.heading+'</li>'
         return lstHtml
       selectFirst: false
 

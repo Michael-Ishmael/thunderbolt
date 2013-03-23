@@ -1,10 +1,22 @@
 @import './reset'
 @import './mixin'
 
+.stack > *:not(.active) {
+  display: none
+}
+
 #app
     width: 100%
     min-height: 200px
+
+#navigation
+    float: right
+
+#main
     vbg-gradient(#aaa, tc = #666)
+
+.clear
+    clear: both
 
 ul.navigation
     padding 0px
@@ -18,5 +30,14 @@ ul.navigation li
     border 1px solid #333
     cursor pointer
 
+/*
 
+
+
+
+
+
+
+
+*/
 

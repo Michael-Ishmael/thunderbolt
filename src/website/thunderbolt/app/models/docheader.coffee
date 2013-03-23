@@ -13,4 +13,8 @@ class Docheader extends Spine.Model
     @select (item) ->
       item.title?.toLowerCase().indexOf(query) isnt -1
 
+  @load: () ->
+    one = Docheader.create({title: "Heading 1", date: 2002})
+    two = Docheader.create({title: "Heading 2", date: 2003})
+
 module.exports = Docheader

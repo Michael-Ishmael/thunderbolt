@@ -4,7 +4,7 @@ List = require('spine/lib/list')
 $ = Spine.$
 
 class DocHeaderList extends Spine.Controller
-  className: 'docList'
+  className: 'documents'
 
   elements:
     '.items': 'items'
@@ -26,7 +26,8 @@ class DocHeaderList extends Spine.Controller
     @list.bind 'change', @change
 
     @active (params) ->
-      @list.change(Docheader.find(params.id))
+      if params.id
+        @list.change(Docheader.find(params.id))
 
     Docheader.bind('refresh change', @render)
 

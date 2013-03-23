@@ -1,0 +1,3 @@
+<li class="item">
+    <%= @heading or "<i>No title<i>" %>
+</li>

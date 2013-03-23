@@ -120,3 +120,8 @@ Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/
 3/20/13 8:42:20 PM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
 Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@27341e11
 Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.console.GremlinSession@7b26c885
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@26f2f761
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.console.GremlinSession@65f97ae0
+3/22/13 11:58:14 PM org.neo4j.server.CommunityBootstrapper INFO: Neo4j Server shutdown initiated by kill signal
+23:58:14.300 [Thread-9] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+23:58:14.301 [Thread-9] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474

@@ -8,6 +8,6 @@ class Navigation extends Spine.Model
 
   @load: ->
     source = Navigation.create({heading: "Sources", area: "source"})
-    source = Navigation.create({heading: "Documents", area: "document"})
+    doc = Navigation.create({heading: "Documents", area: "document"})
 
 module.exports = Navigation

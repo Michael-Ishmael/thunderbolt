@@ -1,0 +1,21 @@
+<h3>Edit Source</h3>
+
+
+  <form>
+    <label>
+      <span>Title</span>
+      <input type="text" name="name" value="<%= @title %>">
+    </label>
+
+    <label>
+      <span>Readership</span>
+      <input type="text" name="email" value="<%= @readership %>">
+    </label>
+
+    <label>
+      <span>Page Rate</span>
+      <input type="text" name="email" value="<%= @pagerate %>">
+    </label>
+
+    <button>Save</button>
+  </form>
