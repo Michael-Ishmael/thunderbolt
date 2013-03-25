@@ -1,5 +1,5 @@
 from py2neo import rest, neo4j, cypher
-from entities.Document import Document
+from entities.CoreEntities import Document
 
 
 class DocumentRepository():

@@ -1,5 +1,5 @@
 import NeoData.DocumentRepository as pr
-from entities.Document import Document
+from entities.CoreEntities import Document
 import simplejson as json
 
 # docList = []
