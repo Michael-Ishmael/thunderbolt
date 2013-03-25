@@ -7791,3 +7791,624 @@ Storage files: (filename : modification date - size)
 2013-03-21 15:09:54,005 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 1090ms [total block time: 13762.152s]
 2013-03-21 15:10:32,834 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 25407ms [total block time: 13787.559s]
 2013-03-21 19:16:21,036 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 14747596ms [total block time: 28535.156s]
+2013-03-25 13:56:37,822 INFO  [neo4j.txmanager]: TM opening log: C:\michael\local\pa\thunderbolt\neo4j\data\graph.db\tm_tx_log.1
+2013-03-25 13:56:37,864 INFO  [neo4j.xafactory]: Opened logical log [C:\michael\local\pa\thunderbolt\neo4j\data\graph.db\index\lucene.log.1] version=10, lastTxId=61 (clean)
+2013-03-25 13:56:38,140 DEBUG [neo4j.diagnostics]: --- STARTUP diagnostics START ---
+2013-03-25 13:56:38,141 DEBUG [neo4j.diagnostics]: Neo4j Kernel properties:
+2013-03-25 13:56:38,142 DEBUG [neo4j.diagnostics]: forced_kernel_id=
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: read_only=false
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: neo4j.ext.udc.host=udc.neo4j.org
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: logical_log=nioneo_logical.log
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: node_auto_indexing=true
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: intercept_committing_transactions=false
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: remote_shell_name=shell
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: cache_type=soft
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: intercept_deserialized_transactions=false
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: lucene_searcher_cache_size=2147483647
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: neo4j.ext.udc.interval=86400000
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: use_memory_mapped_buffers=false
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: rebuild_idgenerators_fast=true
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: neostore.propertystore.db.index.keys.mapped_memory=1M
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: neostore.propertystore.db.arrays.mapped_memory=107M
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: neostore.propertystore.db.strings.mapped_memory=94M
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: log_mapped_memory_stats_filename=mapped_memory_stats.log
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: log_mapped_memory_stats_interval=1000000
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: gcr_cache_min_log_interval=60s
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: relationship_grab_size=100
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: relationship_auto_indexing=false
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: remote_shell_read_only=false
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: node_cache_array_fraction=1.0
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: allow_store_upgrade=false
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: execution_guard_enabled=false
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: relationship_cache_array_fraction=1.0
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: store_dir=data/graph.db
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: remote_logging_host=127.0.0.1
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: online_backup_enabled=false
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: remote_logging_port=4560
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: gc_monitor_threshold=200ms
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: array_block_size=120
+2013-03-25 13:56:38,143 DEBUG [neo4j.diagnostics]: load_kernel_extensions=true
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: neostore.relationshipstore.db.mapped_memory=135M
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: keep_logical_logs=true
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: dump_configuration=false
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: gc_monitor_wait_time=100ms
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: neostore.nodestore.db.mapped_memory=30M
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: neo4j.ext.udc.first_delay=600000
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: remote_shell_enabled=true
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: neo4j.ext.udc.reg=unreg
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: remote_shell_port=1337
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: ephemeral=false
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: log_mapped_memory_stats=false
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: mapped_memory_page_size=1M
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: neo_store=neostore
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: query_cache_size=100
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: logging.threshold_for_rotation=104857600
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: neostore.propertystore.db.index.mapped_memory=1M
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: node_keys_indexable=_label,id
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: backup_slave=false
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: neostore.propertystore.db.mapped_memory=111M
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: string_block_size=120
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: grab_file_lock=true
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: remote_logging_enabled=false
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: neo4j.ext.udc.enabled=true
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: all_stores_total_mapped_memory_size=500M
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: online_backup_port=6362
+2013-03-25 13:56:38,144 DEBUG [neo4j.diagnostics]: neo4j.ext.udc.source=server
+2013-03-25 13:56:38,145 DEBUG [neo4j.diagnostics]: Diagnostics providers:
+2013-03-25 13:56:38,145 DEBUG [neo4j.diagnostics]: org.neo4j.kernel.configuration.Config
+2013-03-25 13:56:38,145 DEBUG [neo4j.diagnostics]: org.neo4j.kernel.info.DiagnosticsManager
+2013-03-25 13:56:38,146 DEBUG [neo4j.diagnostics]: SYSTEM_MEMORY
+2013-03-25 13:56:38,146 DEBUG [neo4j.diagnostics]: JAVA_MEMORY
+2013-03-25 13:56:38,146 DEBUG [neo4j.diagnostics]: OPERATING_SYSTEM
+2013-03-25 13:56:38,146 DEBUG [neo4j.diagnostics]: JAVA_VIRTUAL_MACHINE
+2013-03-25 13:56:38,146 DEBUG [neo4j.diagnostics]: CLASSPATH
+2013-03-25 13:56:38,146 DEBUG [neo4j.diagnostics]: LIBRARY_PATH
+2013-03-25 13:56:38,146 DEBUG [neo4j.diagnostics]: SYSTEM_PROPERTIES
+2013-03-25 13:56:38,146 DEBUG [neo4j.diagnostics]: NETWORK
+2013-03-25 13:56:38,146 DEBUG [neo4j.diagnostics]: System memory information:
+2013-03-25 13:56:38,198 DEBUG [neo4j.diagnostics]: Total Physical memory: 7.96 GB
+2013-03-25 13:56:38,199 DEBUG [neo4j.diagnostics]: Free Physical memory: 1.36 GB
+2013-03-25 13:56:38,199 DEBUG [neo4j.diagnostics]: Committed virtual memory: 286.53 MB
+2013-03-25 13:56:38,199 DEBUG [neo4j.diagnostics]: Total swap space: 15.92 GB
+2013-03-25 13:56:38,199 DEBUG [neo4j.diagnostics]: Free swap space: 7.67 GB
+2013-03-25 13:56:38,200 DEBUG [neo4j.diagnostics]: JVM memory information:
+2013-03-25 13:56:38,200 DEBUG [neo4j.diagnostics]: Free  memory: 105.93 MB
+2013-03-25 13:56:38,200 DEBUG [neo4j.diagnostics]: Total memory: 122.13 MB
+2013-03-25 13:56:38,200 DEBUG [neo4j.diagnostics]: Max   memory: 1.77 GB
+2013-03-25 13:56:38,227 DEBUG [neo4j.diagnostics]: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2013-03-25 13:56:38,227 DEBUG [neo4j.diagnostics]: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2013-03-25 13:56:38,236 DEBUG [neo4j.diagnostics]: Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=708.63 kB, max=48.00 MB, threshold=0.00 B
+2013-03-25 13:56:38,237 DEBUG [neo4j.diagnostics]: Memory Pool: PS Eden Space (Heap memory): committed=31.94 MB, used=10.31 MB, max=668.81 MB, threshold=?
+2013-03-25 13:56:38,237 DEBUG [neo4j.diagnostics]: Memory Pool: PS Survivor Space (Heap memory): committed=5.25 MB, used=5.25 MB, max=5.25 MB, threshold=?
+2013-03-25 13:56:38,238 DEBUG [neo4j.diagnostics]: Memory Pool: PS Old Gen (Heap memory): committed=84.94 MB, used=1.27 MB, max=1.33 GB, threshold=0.00 B
+2013-03-25 13:56:38,238 DEBUG [neo4j.diagnostics]: Memory Pool: PS Perm Gen (Non-heap memory): committed=20.75 MB, used=12.64 MB, max=82.00 MB, threshold=0.00 B
+2013-03-25 13:56:38,238 DEBUG [neo4j.diagnostics]: Operating system information:
+2013-03-25 13:56:38,239 DEBUG [neo4j.diagnostics]: Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 8
+2013-03-25 13:56:38,239 DEBUG [neo4j.diagnostics]: Process id: 8784@IT-TOBYH
+2013-03-25 13:56:38,239 DEBUG [neo4j.diagnostics]: Byte order: LITTLE_ENDIAN
+2013-03-25 13:56:38,240 DEBUG [neo4j.diagnostics]: Local timezone: Europe/London
+2013-03-25 13:56:38,240 DEBUG [neo4j.diagnostics]: JVM information:
+2013-03-25 13:56:38,240 DEBUG [neo4j.diagnostics]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2013-03-25 13:56:38,240 DEBUG [neo4j.diagnostics]: VM Vendor: Oracle Corporation
+2013-03-25 13:56:38,240 DEBUG [neo4j.diagnostics]: VM Version: 23.5-b02
+2013-03-25 13:56:38,241 DEBUG [neo4j.diagnostics]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2013-03-25 13:56:38,241 DEBUG [neo4j.diagnostics]: VM Arguments: [-Dorg.neo4j.server.properties=conf/neo4j-server.properties, -Djava.util.logging.config.file=conf/logging.properties, -Dfile.encoding=UTF-8]
+2013-03-25 13:56:38,241 DEBUG [neo4j.diagnostics]: Java classpath:
+2013-03-25 13:56:38,250 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/jackson-core-asl-1.9.7.jar
+2013-03-25 13:56:38,250 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/asm-analysis-3.2.jar
+2013-03-25 13:56:38,250 DEBUG [neo4j.diagnostics]:  [bootstrap] C:\Program Files\Java\jre7\lib\resources.jar
+2013-03-25 13:56:38,250 DEBUG [neo4j.diagnostics]:  [loader.1] file:/C:/Program%20Files/Java/jre7/lib/ext/zipfs.jar
+2013-03-25 13:56:38,250 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/mimepull-1.6.jar
+2013-03-25 13:56:38,250 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/asm-tree-3.2.jar
+2013-03-25 13:56:38,250 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/neo4j-server-1.8.2.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/jetty-util-6.1.25.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/asm-util-3.2.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [loader.1] file:/C:/Program%20Files/Java/jre7/lib/ext/jaccess.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/servlet-api-2.5-20081211.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/lib/neo4j-kernel-1.8.2.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [bootstrap] C:\Program Files\Java\jre7\lib\jsse.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/lib/scala-library-2.9.1-1.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/slf4j-api-1.6.2.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/lib/neo4j-udc-1.8.2.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/neo4j-cypher-plugin-1.8.2.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/lib/neo4j-graph-algo-1.8.2.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/jersey-core-1.9.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/blueprints-core-1.2.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/blueprints-neo4j-graph-1.2.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/neo4j-server-1.8.2-static-web.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/bcprov-jdk16-140.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/logback-core-0.9.30.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/jackson-mapper-asl-1.9.7.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/commons-logging-1.1.1.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/lib/lucene-core-3.5.0.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/logback-classic-0.9.30.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [bootstrap] C:\Program Files\Java\jre7\lib\jce.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/commons-collections-3.2.1.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/lib/server-api-1.8.2.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [bootstrap] C:\Program Files\Java\jre7\lib\sunrsasign.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/groovy-1.8.5.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/pipes-1.0.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [loader.1] file:/C:/Program%20Files/Java/jre7/lib/ext/dnsns.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/lib/neo4j-cypher-1.8.2.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/jackson-jaxrs-1.9.7.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/lib/geronimo-jta_1.1_spec-1.1.1.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/jersey-server-1.9.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/lib/concurrentlinkedhashmap-lru-1.3.1.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/jsr311-api-1.1.2.r612.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/asm-commons-3.2.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/lib/neo4j-shell-1.8.2.jar
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [bootstrap] C:\Program Files\Java\jre7\classes
+2013-03-25 13:56:38,251 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/neo4j-gremlin-plugin-1.8.2.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/jetty-6.1.25.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/commons-beanutils-core-1.8.0.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [bootstrap] C:\Program Files\Java\jre7\lib\jfr.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/commons-beanutils-1.8.0.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [loader.1] file:/C:/Program%20Files/Java/jre7/lib/ext/sunmscapi.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/rrd4j-2.0.7.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/lib/neo4j-lucene-index-1.8.2.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/logback-access-0.9.30.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [bootstrap] C:\Program Files\Java\jre7\lib\rt.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [loader.1] file:/C:/Program%20Files/Java/jre7/lib/ext/access-bridge-64.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/jettison-1.3.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/gremlin-groovy-1.5.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/lib/neo4j-graph-matching-1.8.2.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [bootstrap] C:\Program Files\Java\jre7\lib\charsets.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/commons-digester-1.8.1.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/asm-3.1.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [loader.1] file:/C:/Program%20Files/Java/jre7/lib/ext/localedata.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/commons-io-1.4.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/jersey-multipart-1.9.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/gremlin-java-1.5.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [loader.1] file:/C:/Program%20Files/Java/jre7/lib/ext/sunjce_provider.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/jcl-over-slf4j-1.6.1.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/jansi-1.5.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/janino-2.5.10.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/conf/
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/commons-configuration-1.6.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/lib/neo4j-jmx-1.8.2.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/stax-api-1.0.1.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/antlr-2.7.7.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [classpath + loader.0] file:/C:/michael/local/pa/thunderbolt/neo4j/system/lib/commons-lang-2.4.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]:  [loader.1] file:/C:/Program%20Files/Java/jre7/lib/ext/sunec.jar
+2013-03-25 13:56:38,252 DEBUG [neo4j.diagnostics]: Library path:
+2013-03-25 13:56:38,253 DEBUG [neo4j.diagnostics]: C:\Windows\System32
+2013-03-25 13:56:38,253 DEBUG [neo4j.diagnostics]: C:\Windows\Sun\Java\bin
+2013-03-25 13:56:38,253 DEBUG [neo4j.diagnostics]: C:\Windows\System32
+2013-03-25 13:56:38,253 DEBUG [neo4j.diagnostics]: C:\Windows
+2013-03-25 13:56:38,253 DEBUG [neo4j.diagnostics]: C:\Python33
+2013-03-25 13:56:38,253 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\AMD APP\bin\x86_64
+2013-03-25 13:56:38,254 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\AMD APP\bin\x86
+2013-03-25 13:56:38,254 DEBUG [neo4j.diagnostics]: C:\Program Files\Common Files\Microsoft Shared\Windows Live
+2013-03-25 13:56:38,254 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\Common Files\microsoft shared\Windows Live
+2013-03-25 13:56:38,254 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\PHP
+2013-03-25 13:56:38,254 DEBUG [neo4j.diagnostics]: C:\Windows\System32
+2013-03-25 13:56:38,254 DEBUG [neo4j.diagnostics]: C:\Windows
+2013-03-25 13:56:38,254 DEBUG [neo4j.diagnostics]: C:\Windows\System32\wbem
+2013-03-25 13:56:38,255 DEBUG [neo4j.diagnostics]: C:\Windows\System32\WindowsPowerShell\v1.0
+2013-03-25 13:56:38,255 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\Seapine\Surround SCM
+2013-03-25 13:56:38,255 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn
+2013-03-25 13:56:38,255 DEBUG [neo4j.diagnostics]: C:\Program Files\Microsoft SQL Server\100\Tools\Binn
+2013-03-25 13:56:38,255 DEBUG [neo4j.diagnostics]: C:\Program Files\Microsoft SQL Server\100\DTS\Binn
+2013-03-25 13:56:38,256 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE
+2013-03-25 13:56:38,256 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn
+2013-03-25 13:56:38,256 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies
+2013-03-25 13:56:38,256 DEBUG [neo4j.diagnostics]: C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\NETFX 4.0 Tools
+2013-03-25 13:56:38,257 DEBUG [neo4j.diagnostics]: C:\Program Files\MySQL\MySQL Server 5.1\bin
+2013-03-25 13:56:38,257 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\Java\jre6\bin
+2013-03-25 13:56:38,257 DEBUG [neo4j.diagnostics]: C:\Users\TobyH\android-sdk-windows\tools
+2013-03-25 13:56:38,257 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\Windows Live\Shared
+2013-03-25 13:56:38,257 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\Seapine\TestTrack
+2013-03-25 13:56:38,257 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\Calibre2
+2013-03-25 13:56:38,267 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0
+2013-03-25 13:56:38,267 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static
+2013-03-25 13:56:38,267 DEBUG [neo4j.diagnostics]: C:\strawberry\c\bin
+2013-03-25 13:56:38,267 DEBUG [neo4j.diagnostics]: C:\strawberry\perl\site\bin
+2013-03-25 13:56:38,268 DEBUG [neo4j.diagnostics]: C:\strawberry\perl\bin
+2013-03-25 13:56:38,268 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\nant\bin
+2013-03-25 13:56:38,268 DEBUG [neo4j.diagnostics]: C:\Program Files (x86)\QuickTime\QTSystem
+2013-03-25 13:56:38,268 DEBUG [neo4j.diagnostics]: C:\michael\lib\apache-ant-1.8.4\bin
+2013-03-25 13:56:38,268 DEBUG [neo4j.diagnostics]: C:\Program Files\Microsoft\Web Platform Installer
+2013-03-25 13:56:38,269 DEBUG [neo4j.diagnostics]: C:\Program Files\nodejs
+2013-03-25 13:56:38,269 DEBUG [neo4j.diagnostics]: C:\Users\michaeli\AppData\Roaming\npm
+2013-03-25 13:56:38,269 DEBUG [neo4j.diagnostics]: C:\michael\local\pa\thunderbolt\neo4j
+2013-03-25 13:56:38,269 DEBUG [neo4j.diagnostics]: System.properties:
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: sun.boot.library.path = C:\Program Files\Java\jre7\bin
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: org.neo4j.server.properties = conf/neo4j-server.properties
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: path.separator = ;
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: file.encoding.pkg = sun.io
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: user.country = GB
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: user.script = 
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: sun.java.launcher = SUN_STANDARD
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: sun.os.patch.level = Service Pack 1
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: user.dir = C:\michael\local\pa\thunderbolt\neo4j
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: user.variant = 
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: sun.jnu.encoding = Cp1252
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: user.home = C:\Users\michaeli
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: user.timezone = Europe/London
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: file.encoding = UTF-8
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: user.name = MichaelI
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: sun.java.command = org.neo4j.server.Bootstrapper
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: sun.arch.data.model = 64
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: user.language = en
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: awt.toolkit = sun.awt.windows.WToolkit
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: file.separator = \
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: sun.io.unicode.encoding = UnicodeLittle
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: sun.cpu.endian = little
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: sun.desktop = windows
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: sun.cpu.isalist = amd64
+2013-03-25 13:56:38,270 DEBUG [neo4j.diagnostics]: Network information:
+2013-03-25 13:56:38,353 DEBUG [neo4j.diagnostics]: Interface Software Loopback Interface 1:
+2013-03-25 13:56:38,353 DEBUG [neo4j.diagnostics]:     address: 127.0.0.1
+2013-03-25 13:56:38,353 DEBUG [neo4j.diagnostics]:     address: 0:0:0:0:0:0:0:1
+2013-03-25 13:56:38,353 DEBUG [neo4j.diagnostics]: Interface WAN Miniport (SSTP):
+2013-03-25 13:56:38,353 DEBUG [neo4j.diagnostics]: Interface WAN Miniport (L2TP):
+2013-03-25 13:56:38,353 DEBUG [neo4j.diagnostics]: Interface WAN Miniport (PPTP):
+2013-03-25 13:56:38,353 DEBUG [neo4j.diagnostics]: Interface WAN Miniport (PPPOE):
+2013-03-25 13:56:38,354 DEBUG [neo4j.diagnostics]: Interface WAN Miniport (IPv6):
+2013-03-25 13:56:38,354 DEBUG [neo4j.diagnostics]: Interface WAN Miniport (Network Monitor):
+2013-03-25 13:56:38,354 DEBUG [neo4j.diagnostics]: Interface WAN Miniport (IP):
+2013-03-25 13:56:38,354 DEBUG [neo4j.diagnostics]: Interface RAS Async Adapter:
+2013-03-25 13:56:38,354 DEBUG [neo4j.diagnostics]: Interface Broadcom NetLink (TM) Gigabit Ethernet:
+2013-03-25 13:56:38,354 DEBUG [neo4j.diagnostics]:     address: 192.168.103.56
+2013-03-25 13:56:38,354 DEBUG [neo4j.diagnostics]: Interface Microsoft ISATAP Adapter:
+2013-03-25 13:56:38,354 DEBUG [neo4j.diagnostics]:     address: fe80:0:0:0:0:5efe:c0a8:6738%11
+2013-03-25 13:56:38,354 DEBUG [neo4j.diagnostics]: Interface Teredo Tunneling Pseudo-Interface:
+2013-03-25 13:56:38,354 DEBUG [neo4j.diagnostics]:     address: fe80:0:0:0:0:100:7f:fffe%12
+2013-03-25 13:56:38,354 DEBUG [neo4j.diagnostics]: Interface Microsoft ISATAP Adapter #2:
+2013-03-25 13:56:38,354 DEBUG [neo4j.diagnostics]:     address: fe80:0:0:0:0:5efe:a9fe:3298%13
+2013-03-25 13:56:38,355 DEBUG [neo4j.diagnostics]: Interface Microsoft ISATAP Adapter #3:
+2013-03-25 13:56:38,355 DEBUG [neo4j.diagnostics]: Interface WAN Miniport (IKEv2):
+2013-03-25 13:56:38,355 DEBUG [neo4j.diagnostics]: Interface Broadcom NetLink (TM) Gigabit Ethernet - VirtualBox Bridged Networking Driver Miniport:
+2013-03-25 13:56:38,355 DEBUG [neo4j.diagnostics]: Interface VirtualBox Host-Only Ethernet Adapter:
+2013-03-25 13:56:38,355 DEBUG [neo4j.diagnostics]:     address: 169.254.50.152
+2013-03-25 13:56:38,355 DEBUG [neo4j.diagnostics]:     address: fe80:0:0:0:d97a:871c:db99:3298%17
+2013-03-25 13:56:38,355 DEBUG [neo4j.diagnostics]: Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
+2013-03-25 13:56:38,355 DEBUG [neo4j.diagnostics]: Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
+2013-03-25 13:56:38,355 DEBUG [neo4j.diagnostics]: Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
+2013-03-25 13:56:38,355 DEBUG [neo4j.diagnostics]: Interface VirtualBox Host-Only Ethernet Adapter-QoS Packet Scheduler-0000:
+2013-03-25 13:56:38,355 DEBUG [neo4j.diagnostics]: Interface VirtualBox Host-Only Ethernet Adapter-WFP LightWeight Filter-0000:
+2013-03-25 13:56:38,355 DEBUG [neo4j.diagnostics]: Interface Broadcom NetLink (TM) Gigabit Ethernet - VirtualBox Bridged Networking Driver Miniport-QoS Packet Scheduler-0000:
+2013-03-25 13:56:38,355 DEBUG [neo4j.diagnostics]: Interface Broadcom NetLink (TM) Gigabit Ethernet - VirtualBox Bridged Networking Driver Miniport-WFP LightWeight Filter-0000:
+2013-03-25 13:56:38,356 DEBUG [neo4j.diagnostics]: --- STARTUP diagnostics END ---
+2013-03-25 13:56:38,359 INFO  [neo4j.txmanager]: Recovery completed, all transactions have been resolved to a consistent state.
+2013-03-25 13:56:38,491 INFO  [neo4j.extension]: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-03-25 13:56:38,510 INFO  [neo4j.extension]: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-03-25 13:56:40,196 INFO  [neo4j.extension]: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2013-03-25 13:56:40,199 DEBUG [neo4j.diagnostics]: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-03-25 13:56:40,199 DEBUG [neo4j.diagnostics]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1363008167667, id:-4940680818958339252, store version: 13561656364791302]
+2013-03-25 13:56:40,199 DEBUG [neo4j.diagnostics]: Kernel version: Neo4j - Graph Database Kernel 1.8.2
+2013-03-25 13:56:40,199 DEBUG [neo4j.diagnostics]: Neo4j component versions:
+2013-03-25 13:56:40,200 DEBUG [neo4j.diagnostics]:   Neo4j - Graph Database Kernel 1.8.2
+2013-03-25 13:56:40,200 DEBUG [neo4j.diagnostics]: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-03-25 13:56:40,202 DEBUG [neo4j.diagnostics]: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-03-25 13:56:40,202 DEBUG [neo4j.diagnostics]: Store versions:
+2013-03-25 13:56:40,202 DEBUG [neo4j.diagnostics]: Store versions:
+2013-03-25 13:56:40,202 DEBUG [neo4j.diagnostics]:   NeoStore v0.A.0
+2013-03-25 13:56:40,202 DEBUG [neo4j.diagnostics]:   NodeStore v0.A.0
+2013-03-25 13:56:40,202 DEBUG [neo4j.diagnostics]:   RelationshipStore v0.A.0
+2013-03-25 13:56:40,202 DEBUG [neo4j.diagnostics]:   RelationshipTypeStore v0.A.0
+2013-03-25 13:56:40,202 DEBUG [neo4j.diagnostics]:   PropertyStore v0.A.0
+2013-03-25 13:56:40,202 DEBUG [neo4j.diagnostics]:   PropertyIndexStore v0.A.0
+2013-03-25 13:56:40,202 DEBUG [neo4j.diagnostics]:   StringPropertyStore v0.A.0
+2013-03-25 13:56:40,202 DEBUG [neo4j.diagnostics]:   ArrayPropertyStore v0.A.0
+2013-03-25 13:56:40,202 DEBUG [neo4j.diagnostics]: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-03-25 13:56:40,202 DEBUG [neo4j.diagnostics]: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-03-25 13:56:40,202 DEBUG [neo4j.diagnostics]: Id usage:
+2013-03-25 13:56:40,202 DEBUG [neo4j.diagnostics]: Id usage:
+2013-03-25 13:56:40,203 DEBUG [neo4j.diagnostics]:   NodeStore: used=30 high=29
+2013-03-25 13:56:40,203 DEBUG [neo4j.diagnostics]:   RelationshipStore: used=58 high=57
+2013-03-25 13:56:40,203 DEBUG [neo4j.diagnostics]:   RelationshipTypeStore: used=9 high=8
+2013-03-25 13:56:40,203 DEBUG [neo4j.diagnostics]:   PropertyStore: used=35 high=34
+2013-03-25 13:56:40,203 DEBUG [neo4j.diagnostics]:   PropertyIndexStore: used=9 high=8
+2013-03-25 13:56:40,203 DEBUG [neo4j.diagnostics]:   StringPropertyStore: used=7 high=6
+2013-03-25 13:56:40,203 DEBUG [neo4j.diagnostics]:   ArrayPropertyStore: used=1 high=0
+2013-03-25 13:56:40,203 DEBUG [neo4j.diagnostics]: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-03-25 13:56:40,203 DEBUG [neo4j.diagnostics]: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-03-25 13:56:40,203 DEBUG [neo4j.diagnostics]: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-03-25 13:56:40,204 DEBUG [neo4j.diagnostics]: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-03-25 13:56:40,205 DEBUG [neo4j.diagnostics]: Disk space on partition (Total / Free / Free %): 500000878592 / 253917138944 / 49
+Storage files: (filename : modification date - size)
+2013-03-25 13:56:40,206 DEBUG [neo4j.diagnostics]:   active_tx_log: 2013-03-25T13:41:41+0000 - 11.00 B
+2013-03-25 13:56:40,206 DEBUG [neo4j.diagnostics]:   index:
+2013-03-25 13:56:40,206 DEBUG [neo4j.diagnostics]:     lucene:
+2013-03-25 13:56:40,206 DEBUG [neo4j.diagnostics]:       node:
+2013-03-25 13:56:40,206 DEBUG [neo4j.diagnostics]:         authors:
+2013-03-25 13:56:40,207 DEBUG [neo4j.diagnostics]:           segments.gen: 2013-03-25T13:41:42+0000 - 20.00 B
+2013-03-25 13:56:40,207 DEBUG [neo4j.diagnostics]:           segments_2: 2013-03-25T13:41:42+0000 - 1.84 kB
+2013-03-25 13:56:40,207 DEBUG [neo4j.diagnostics]:           _0.fdt: 2013-03-25T13:41:41+0000 - 14.00 B
+2013-03-25 13:56:40,208 DEBUG [neo4j.diagnostics]:           _0.fdx: 2013-03-25T13:41:41+0000 - 12.00 B
+2013-03-25 13:56:40,208 DEBUG [neo4j.diagnostics]:           _0.fnm: 2013-03-25T13:41:41+0000 - 16.00 B
+2013-03-25 13:56:40,208 DEBUG [neo4j.diagnostics]:           _0.frq: 2013-03-25T13:41:41+0000 - 2.00 B
+2013-03-25 13:56:40,208 DEBUG [neo4j.diagnostics]:           _0.nrm: 2013-03-25T13:41:41+0000 - 6.00 B
+2013-03-25 13:56:40,209 DEBUG [neo4j.diagnostics]:           _0.prx: 2013-03-25T13:41:41+0000 - 2.00 B
+2013-03-25 13:56:40,209 DEBUG [neo4j.diagnostics]:           _0.tii: 2013-03-25T13:41:41+0000 - 35.00 B
+2013-03-25 13:56:40,210 DEBUG [neo4j.diagnostics]:           _0.tis: 2013-03-25T13:41:41+0000 - 39.00 B
+2013-03-25 13:56:40,210 DEBUG [neo4j.diagnostics]:           _1.fdt: 2013-03-25T13:41:41+0000 - 14.00 B
+2013-03-25 13:56:40,210 DEBUG [neo4j.diagnostics]:           _1.fdx: 2013-03-25T13:41:41+0000 - 12.00 B
+2013-03-25 13:56:40,210 DEBUG [neo4j.diagnostics]:           _1.fnm: 2013-03-25T13:41:41+0000 - 16.00 B
+2013-03-25 13:56:40,211 DEBUG [neo4j.diagnostics]:           _1.frq: 2013-03-25T13:41:41+0000 - 2.00 B
+2013-03-25 13:56:40,211 DEBUG [neo4j.diagnostics]:           _1.nrm: 2013-03-25T13:41:41+0000 - 6.00 B
+2013-03-25 13:56:40,211 DEBUG [neo4j.diagnostics]:           _1.prx: 2013-03-25T13:41:41+0000 - 2.00 B
+2013-03-25 13:56:40,211 DEBUG [neo4j.diagnostics]:           _1.tii: 2013-03-25T13:41:41+0000 - 35.00 B
+2013-03-25 13:56:40,212 DEBUG [neo4j.diagnostics]:           _1.tis: 2013-03-25T13:41:41+0000 - 38.00 B
+2013-03-25 13:56:40,212 DEBUG [neo4j.diagnostics]:           _2.fdt: 2013-03-25T13:41:41+0000 - 14.00 B
+2013-03-25 13:56:40,212 DEBUG [neo4j.diagnostics]:           _2.fdx: 2013-03-25T13:41:41+0000 - 12.00 B
+2013-03-25 13:56:40,212 DEBUG [neo4j.diagnostics]:           _2.fnm: 2013-03-25T13:41:41+0000 - 16.00 B
+2013-03-25 13:56:40,213 DEBUG [neo4j.diagnostics]:           _2.frq: 2013-03-25T13:41:41+0000 - 2.00 B
+2013-03-25 13:56:40,213 DEBUG [neo4j.diagnostics]:           _2.nrm: 2013-03-25T13:41:41+0000 - 6.00 B
+2013-03-25 13:56:40,213 DEBUG [neo4j.diagnostics]:           _2.prx: 2013-03-25T13:41:41+0000 - 2.00 B
+2013-03-25 13:56:40,214 DEBUG [neo4j.diagnostics]:           _2.tii: 2013-03-25T13:41:41+0000 - 35.00 B
+2013-03-25 13:56:40,214 DEBUG [neo4j.diagnostics]:           _2.tis: 2013-03-25T13:41:41+0000 - 39.00 B
+2013-03-25 13:56:40,214 DEBUG [neo4j.diagnostics]:           _3.fdt: 2013-03-25T13:41:41+0000 - 14.00 B
+2013-03-25 13:56:40,214 DEBUG [neo4j.diagnostics]:           _3.fdx: 2013-03-25T13:41:41+0000 - 12.00 B
+2013-03-25 13:56:40,215 DEBUG [neo4j.diagnostics]:           _3.fnm: 2013-03-25T13:41:41+0000 - 16.00 B
+2013-03-25 13:56:40,215 DEBUG [neo4j.diagnostics]:           _3.frq: 2013-03-25T13:41:41+0000 - 2.00 B
+2013-03-25 13:56:40,215 DEBUG [neo4j.diagnostics]:           _3.nrm: 2013-03-25T13:41:41+0000 - 6.00 B
+2013-03-25 13:56:40,216 DEBUG [neo4j.diagnostics]:           _3.prx: 2013-03-25T13:41:41+0000 - 2.00 B
+2013-03-25 13:56:40,216 DEBUG [neo4j.diagnostics]:           _3.tii: 2013-03-25T13:41:41+0000 - 35.00 B
+2013-03-25 13:56:40,216 DEBUG [neo4j.diagnostics]:           _3.tis: 2013-03-25T13:41:41+0000 - 38.00 B
+2013-03-25 13:56:40,216 DEBUG [neo4j.diagnostics]:           _4.fdt: 2013-03-25T13:41:41+0000 - 14.00 B
+2013-03-25 13:56:40,217 DEBUG [neo4j.diagnostics]:           _4.fdx: 2013-03-25T13:41:41+0000 - 12.00 B
+2013-03-25 13:56:40,217 DEBUG [neo4j.diagnostics]:           _4.fnm: 2013-03-25T13:41:41+0000 - 16.00 B
+2013-03-25 13:56:40,217 DEBUG [neo4j.diagnostics]:           _4.frq: 2013-03-25T13:41:41+0000 - 2.00 B
+2013-03-25 13:56:40,218 DEBUG [neo4j.diagnostics]:           _4.nrm: 2013-03-25T13:41:41+0000 - 6.00 B
+2013-03-25 13:56:40,218 DEBUG [neo4j.diagnostics]:           _4.prx: 2013-03-25T13:41:41+0000 - 2.00 B
+2013-03-25 13:56:40,218 DEBUG [neo4j.diagnostics]:           _4.tii: 2013-03-25T13:41:41+0000 - 35.00 B
+2013-03-25 13:56:40,218 DEBUG [neo4j.diagnostics]:           _4.tis: 2013-03-25T13:41:41+0000 - 39.00 B
+2013-03-25 13:56:40,219 DEBUG [neo4j.diagnostics]:           _5.fdt: 2013-03-25T13:41:41+0000 - 14.00 B
+2013-03-25 13:56:40,219 DEBUG [neo4j.diagnostics]:           _5.fdx: 2013-03-25T13:41:41+0000 - 12.00 B
+2013-03-25 13:56:40,219 DEBUG [neo4j.diagnostics]:           _5.fnm: 2013-03-25T13:41:41+0000 - 16.00 B
+2013-03-25 13:56:40,220 DEBUG [neo4j.diagnostics]:           _5.frq: 2013-03-25T13:41:41+0000 - 2.00 B
+2013-03-25 13:56:40,220 DEBUG [neo4j.diagnostics]:           _5.nrm: 2013-03-25T13:41:41+0000 - 6.00 B
+2013-03-25 13:56:40,220 DEBUG [neo4j.diagnostics]:           _5.prx: 2013-03-25T13:41:41+0000 - 2.00 B
+2013-03-25 13:56:40,221 DEBUG [neo4j.diagnostics]:           _5.tii: 2013-03-25T13:41:41+0000 - 35.00 B
+2013-03-25 13:56:40,221 DEBUG [neo4j.diagnostics]:           _5.tis: 2013-03-25T13:41:41+0000 - 39.00 B
+2013-03-25 13:56:40,221 DEBUG [neo4j.diagnostics]:           _6.fdt: 2013-03-25T13:41:41+0000 - 14.00 B
+2013-03-25 13:56:40,222 DEBUG [neo4j.diagnostics]:           _6.fdx: 2013-03-25T13:41:41+0000 - 12.00 B
+2013-03-25 13:56:40,222 DEBUG [neo4j.diagnostics]:           _6.fnm: 2013-03-25T13:41:41+0000 - 16.00 B
+2013-03-25 13:56:40,222 DEBUG [neo4j.diagnostics]:           _6.frq: 2013-03-25T13:41:41+0000 - 2.00 B
+2013-03-25 13:56:40,222 DEBUG [neo4j.diagnostics]:           _6.nrm: 2013-03-25T13:41:42+0000 - 6.00 B
+2013-03-25 13:56:40,223 DEBUG [neo4j.diagnostics]:           _6.prx: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,223 DEBUG [neo4j.diagnostics]:           _6.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,223 DEBUG [neo4j.diagnostics]:           _6.tis: 2013-03-25T13:41:42+0000 - 39.00 B
+2013-03-25 13:56:40,223 DEBUG [neo4j.diagnostics]:           _7.fdt: 2013-03-25T13:41:42+0000 - 14.00 B
+2013-03-25 13:56:40,224 DEBUG [neo4j.diagnostics]:           _7.fdx: 2013-03-25T13:41:42+0000 - 12.00 B
+2013-03-25 13:56:40,224 DEBUG [neo4j.diagnostics]:           _7.fnm: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,224 DEBUG [neo4j.diagnostics]:           _7.frq: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,225 DEBUG [neo4j.diagnostics]:           _7.nrm: 2013-03-25T13:41:42+0000 - 6.00 B
+2013-03-25 13:56:40,225 DEBUG [neo4j.diagnostics]:           _7.prx: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,225 DEBUG [neo4j.diagnostics]:           _7.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,225 DEBUG [neo4j.diagnostics]:           _7.tis: 2013-03-25T13:41:42+0000 - 39.00 B
+2013-03-25 13:56:40,226 DEBUG [neo4j.diagnostics]:           _8.fdt: 2013-03-25T13:41:42+0000 - 14.00 B
+2013-03-25 13:56:40,226 DEBUG [neo4j.diagnostics]:           _8.fdx: 2013-03-25T13:41:42+0000 - 12.00 B
+2013-03-25 13:56:40,226 DEBUG [neo4j.diagnostics]:           _8.fnm: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,226 DEBUG [neo4j.diagnostics]:           _8.frq: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,227 DEBUG [neo4j.diagnostics]:           _8.nrm: 2013-03-25T13:41:42+0000 - 6.00 B
+2013-03-25 13:56:40,227 DEBUG [neo4j.diagnostics]:           _8.prx: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,227 DEBUG [neo4j.diagnostics]:           _8.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,228 DEBUG [neo4j.diagnostics]:           _8.tis: 2013-03-25T13:41:42+0000 - 39.00 B
+2013-03-25 13:56:40,228 DEBUG [neo4j.diagnostics]:         - Total: 2013-03-25T13:41:42+0000 - 2.97 kB
+2013-03-25 13:56:40,228 DEBUG [neo4j.diagnostics]:         documents:
+2013-03-25 13:56:40,228 DEBUG [neo4j.diagnostics]:           segments.gen: 2013-03-25T13:41:42+0000 - 20.00 B
+2013-03-25 13:56:40,229 DEBUG [neo4j.diagnostics]:           segments_1: 2013-03-25T13:41:42+0000 - 1.24 kB
+2013-03-25 13:56:40,229 DEBUG [neo4j.diagnostics]:           _0.fdt: 2013-03-25T13:41:42+0000 - 14.00 B
+2013-03-25 13:56:40,229 DEBUG [neo4j.diagnostics]:           _0.fdx: 2013-03-25T13:41:42+0000 - 12.00 B
+2013-03-25 13:56:40,230 DEBUG [neo4j.diagnostics]:           _0.fnm: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,230 DEBUG [neo4j.diagnostics]:           _0.frq: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,230 DEBUG [neo4j.diagnostics]:           _0.nrm: 2013-03-25T13:41:42+0000 - 6.00 B
+2013-03-25 13:56:40,230 DEBUG [neo4j.diagnostics]:           _0.prx: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,231 DEBUG [neo4j.diagnostics]:           _0.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,231 DEBUG [neo4j.diagnostics]:           _0.tis: 2013-03-25T13:41:42+0000 - 38.00 B
+2013-03-25 13:56:40,231 DEBUG [neo4j.diagnostics]:           _1.fdt: 2013-03-25T13:41:42+0000 - 14.00 B
+2013-03-25 13:56:40,231 DEBUG [neo4j.diagnostics]:           _1.fdx: 2013-03-25T13:41:42+0000 - 12.00 B
+2013-03-25 13:56:40,232 DEBUG [neo4j.diagnostics]:           _1.fnm: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,232 DEBUG [neo4j.diagnostics]:           _1.frq: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,232 DEBUG [neo4j.diagnostics]:           _1.nrm: 2013-03-25T13:41:42+0000 - 6.00 B
+2013-03-25 13:56:40,233 DEBUG [neo4j.diagnostics]:           _1.prx: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,233 DEBUG [neo4j.diagnostics]:           _1.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,233 DEBUG [neo4j.diagnostics]:           _1.tis: 2013-03-25T13:41:42+0000 - 39.00 B
+2013-03-25 13:56:40,233 DEBUG [neo4j.diagnostics]:           _2.fdt: 2013-03-25T13:41:42+0000 - 14.00 B
+2013-03-25 13:56:40,234 DEBUG [neo4j.diagnostics]:           _2.fdx: 2013-03-25T13:41:42+0000 - 12.00 B
+2013-03-25 13:56:40,234 DEBUG [neo4j.diagnostics]:           _2.fnm: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,234 DEBUG [neo4j.diagnostics]:           _2.frq: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,235 DEBUG [neo4j.diagnostics]:           _2.nrm: 2013-03-25T13:41:42+0000 - 6.00 B
+2013-03-25 13:56:40,235 DEBUG [neo4j.diagnostics]:           _2.prx: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,235 DEBUG [neo4j.diagnostics]:           _2.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,235 DEBUG [neo4j.diagnostics]:           _2.tis: 2013-03-25T13:41:42+0000 - 39.00 B
+2013-03-25 13:56:40,236 DEBUG [neo4j.diagnostics]:           _3.fdt: 2013-03-25T13:41:42+0000 - 14.00 B
+2013-03-25 13:56:40,236 DEBUG [neo4j.diagnostics]:           _3.fdx: 2013-03-25T13:41:42+0000 - 12.00 B
+2013-03-25 13:56:40,236 DEBUG [neo4j.diagnostics]:           _3.fnm: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,237 DEBUG [neo4j.diagnostics]:           _3.frq: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,237 DEBUG [neo4j.diagnostics]:           _3.nrm: 2013-03-25T13:41:42+0000 - 6.00 B
+2013-03-25 13:56:40,237 DEBUG [neo4j.diagnostics]:           _3.prx: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,237 DEBUG [neo4j.diagnostics]:           _3.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,238 DEBUG [neo4j.diagnostics]:           _3.tis: 2013-03-25T13:41:42+0000 - 39.00 B
+2013-03-25 13:56:40,238 DEBUG [neo4j.diagnostics]:           _4.fdt: 2013-03-25T13:41:42+0000 - 14.00 B
+2013-03-25 13:56:40,238 DEBUG [neo4j.diagnostics]:           _4.fdx: 2013-03-25T13:41:42+0000 - 12.00 B
+2013-03-25 13:56:40,238 DEBUG [neo4j.diagnostics]:           _4.fnm: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,239 DEBUG [neo4j.diagnostics]:           _4.frq: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,239 DEBUG [neo4j.diagnostics]:           _4.nrm: 2013-03-25T13:41:42+0000 - 6.00 B
+2013-03-25 13:56:40,239 DEBUG [neo4j.diagnostics]:           _4.prx: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,240 DEBUG [neo4j.diagnostics]:           _4.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,240 DEBUG [neo4j.diagnostics]:           _4.tis: 2013-03-25T13:41:42+0000 - 39.00 B
+2013-03-25 13:56:40,240 DEBUG [neo4j.diagnostics]:           _5.fdt: 2013-03-25T13:41:42+0000 - 14.00 B
+2013-03-25 13:56:40,240 DEBUG [neo4j.diagnostics]:           _5.fdx: 2013-03-25T13:41:42+0000 - 12.00 B
+2013-03-25 13:56:40,241 DEBUG [neo4j.diagnostics]:           _5.fnm: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,241 DEBUG [neo4j.diagnostics]:           _5.frq: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,241 DEBUG [neo4j.diagnostics]:           _5.nrm: 2013-03-25T13:41:42+0000 - 6.00 B
+2013-03-25 13:56:40,241 DEBUG [neo4j.diagnostics]:           _5.prx: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,242 DEBUG [neo4j.diagnostics]:           _5.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,242 DEBUG [neo4j.diagnostics]:           _5.tis: 2013-03-25T13:41:42+0000 - 39.00 B
+2013-03-25 13:56:40,242 DEBUG [neo4j.diagnostics]:         - Total: 2013-03-25T13:41:42+0000 - 2.00 kB
+2013-03-25 13:56:40,242 DEBUG [neo4j.diagnostics]:         node_auto_index:
+2013-03-25 13:56:40,243 DEBUG [neo4j.diagnostics]:           segments.gen: 2013-03-25T13:41:42+0000 - 20.00 B
+2013-03-25 13:56:40,243 DEBUG [neo4j.diagnostics]:           segments_4: 2013-03-25T13:41:42+0000 - 482.00 B
+2013-03-25 13:56:40,243 DEBUG [neo4j.diagnostics]:           _k.fdt: 2013-03-25T13:41:42+0000 - 256.00 B
+2013-03-25 13:56:40,244 DEBUG [neo4j.diagnostics]:           _k.fdx: 2013-03-25T13:41:42+0000 - 196.00 B
+2013-03-25 13:56:40,244 DEBUG [neo4j.diagnostics]:           _k.fnm: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,244 DEBUG [neo4j.diagnostics]:           _k.frq: 2013-03-25T13:41:42+0000 - 52.00 B
+2013-03-25 13:56:40,244 DEBUG [neo4j.diagnostics]:           _k.nrm: 2013-03-25T13:41:42+0000 - 52.00 B
+2013-03-25 13:56:40,245 DEBUG [neo4j.diagnostics]:           _k.prx: 2013-03-25T13:41:42+0000 - 52.00 B
+2013-03-25 13:56:40,245 DEBUG [neo4j.diagnostics]:           _k.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,245 DEBUG [neo4j.diagnostics]:           _k.tis: 2013-03-25T13:41:42+0000 - 236.00 B
+2013-03-25 13:56:40,246 DEBUG [neo4j.diagnostics]:           _k_1.del: 2013-03-25T13:41:42+0000 - 33.00 B
+2013-03-25 13:56:40,246 DEBUG [neo4j.diagnostics]:           _l.fdt: 2013-03-25T13:41:42+0000 - 18.00 B
+2013-03-25 13:56:40,246 DEBUG [neo4j.diagnostics]:           _l.fdx: 2013-03-25T13:41:42+0000 - 12.00 B
+2013-03-25 13:56:40,246 DEBUG [neo4j.diagnostics]:           _l.fnm: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,247 DEBUG [neo4j.diagnostics]:           _l.frq: 2013-03-25T13:41:42+0000 - 3.00 B
+2013-03-25 13:56:40,247 DEBUG [neo4j.diagnostics]:           _l.nrm: 2013-03-25T13:41:42+0000 - 6.00 B
+2013-03-25 13:56:40,247 DEBUG [neo4j.diagnostics]:           _l.prx: 2013-03-25T13:41:42+0000 - 3.00 B
+2013-03-25 13:56:40,248 DEBUG [neo4j.diagnostics]:           _l.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,248 DEBUG [neo4j.diagnostics]:           _l.tis: 2013-03-25T13:41:42+0000 - 46.00 B
+2013-03-25 13:56:40,248 DEBUG [neo4j.diagnostics]:         - Total: 2013-03-25T13:41:42+0000 - 1.53 kB
+2013-03-25 13:56:40,248 DEBUG [neo4j.diagnostics]:         references:
+2013-03-25 13:56:40,249 DEBUG [neo4j.diagnostics]:           segments.gen: 2013-03-25T13:41:42+0000 - 20.00 B
+2013-03-25 13:56:40,249 DEBUG [neo4j.diagnostics]:           segments_2: 2013-03-25T13:41:42+0000 - 856.00 B
+2013-03-25 13:56:40,249 DEBUG [neo4j.diagnostics]:           _1.fdt: 2013-03-25T13:41:42+0000 - 22.00 B
+2013-03-25 13:56:40,249 DEBUG [neo4j.diagnostics]:           _1.fdx: 2013-03-25T13:41:42+0000 - 12.00 B
+2013-03-25 13:56:40,250 DEBUG [neo4j.diagnostics]:           _1.fnm: 2013-03-25T13:41:42+0000 - 27.00 B
+2013-03-25 13:56:40,250 DEBUG [neo4j.diagnostics]:           _1.frq: 2013-03-25T13:41:42+0000 - 3.00 B
+2013-03-25 13:56:40,250 DEBUG [neo4j.diagnostics]:           _1.nrm: 2013-03-25T13:41:42+0000 - 7.00 B
+2013-03-25 13:56:40,251 DEBUG [neo4j.diagnostics]:           _1.prx: 2013-03-25T13:41:42+0000 - 3.00 B
+2013-03-25 13:56:40,251 DEBUG [neo4j.diagnostics]:           _1.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,251 DEBUG [neo4j.diagnostics]:           _1.tis: 2013-03-25T13:41:42+0000 - 50.00 B
+2013-03-25 13:56:40,252 DEBUG [neo4j.diagnostics]:           _2.fdt: 2013-03-25T13:41:42+0000 - 21.00 B
+2013-03-25 13:56:40,252 DEBUG [neo4j.diagnostics]:           _2.fdx: 2013-03-25T13:41:42+0000 - 12.00 B
+2013-03-25 13:56:40,252 DEBUG [neo4j.diagnostics]:           _2.fnm: 2013-03-25T13:41:42+0000 - 27.00 B
+2013-03-25 13:56:40,253 DEBUG [neo4j.diagnostics]:           _2.frq: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,253 DEBUG [neo4j.diagnostics]:           _2.nrm: 2013-03-25T13:41:42+0000 - 7.00 B
+2013-03-25 13:56:40,253 DEBUG [neo4j.diagnostics]:           _2.prx: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,253 DEBUG [neo4j.diagnostics]:           _2.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,254 DEBUG [neo4j.diagnostics]:           _2.tis: 2013-03-25T13:41:42+0000 - 46.00 B
+2013-03-25 13:56:40,254 DEBUG [neo4j.diagnostics]:           _4.fdt: 2013-03-25T13:41:42+0000 - 25.00 B
+2013-03-25 13:56:40,254 DEBUG [neo4j.diagnostics]:           _4.fdx: 2013-03-25T13:41:42+0000 - 12.00 B
+2013-03-25 13:56:40,255 DEBUG [neo4j.diagnostics]:           _4.fnm: 2013-03-25T13:41:42+0000 - 27.00 B
+2013-03-25 13:56:40,255 DEBUG [neo4j.diagnostics]:           _4.frq: 2013-03-25T13:41:42+0000 - 3.00 B
+2013-03-25 13:56:40,255 DEBUG [neo4j.diagnostics]:           _4.nrm: 2013-03-25T13:41:42+0000 - 7.00 B
+2013-03-25 13:56:40,256 DEBUG [neo4j.diagnostics]:           _4.prx: 2013-03-25T13:41:42+0000 - 3.00 B
+2013-03-25 13:56:40,256 DEBUG [neo4j.diagnostics]:           _4.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,256 DEBUG [neo4j.diagnostics]:           _4.tis: 2013-03-25T13:41:42+0000 - 53.00 B
+2013-03-25 13:56:40,257 DEBUG [neo4j.diagnostics]:           _6.fdt: 2013-03-25T13:41:42+0000 - 23.00 B
+2013-03-25 13:56:40,257 DEBUG [neo4j.diagnostics]:           _6.fdx: 2013-03-25T13:41:42+0000 - 12.00 B
+2013-03-25 13:56:40,257 DEBUG [neo4j.diagnostics]:           _6.fnm: 2013-03-25T13:41:42+0000 - 27.00 B
+2013-03-25 13:56:40,257 DEBUG [neo4j.diagnostics]:           _6.frq: 2013-03-25T13:41:42+0000 - 3.00 B
+2013-03-25 13:56:40,258 DEBUG [neo4j.diagnostics]:           _6.nrm: 2013-03-25T13:41:42+0000 - 7.00 B
+2013-03-25 13:56:40,258 DEBUG [neo4j.diagnostics]:           _6.prx: 2013-03-25T13:41:42+0000 - 3.00 B
+2013-03-25 13:56:40,258 DEBUG [neo4j.diagnostics]:           _6.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,259 DEBUG [neo4j.diagnostics]:           _6.tis: 2013-03-25T13:41:42+0000 - 51.00 B
+2013-03-25 13:56:40,259 DEBUG [neo4j.diagnostics]:         - Total: 2013-03-25T13:41:42+0000 - 1.48 kB
+2013-03-25 13:56:40,259 DEBUG [neo4j.diagnostics]:         sources:
+2013-03-25 13:56:40,259 DEBUG [neo4j.diagnostics]:           segments.gen: 2013-03-25T13:41:42+0000 - 20.00 B
+2013-03-25 13:56:40,260 DEBUG [neo4j.diagnostics]:           segments_1: 2013-03-25T13:41:42+0000 - 650.00 B
+2013-03-25 13:56:40,260 DEBUG [neo4j.diagnostics]:           _0.fdt: 2013-03-25T13:41:42+0000 - 13.00 B
+2013-03-25 13:56:40,260 DEBUG [neo4j.diagnostics]:           _0.fdx: 2013-03-25T13:41:42+0000 - 12.00 B
+2013-03-25 13:56:40,260 DEBUG [neo4j.diagnostics]:           _0.fnm: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,261 DEBUG [neo4j.diagnostics]:           _0.frq: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,261 DEBUG [neo4j.diagnostics]:           _0.nrm: 2013-03-25T13:41:42+0000 - 6.00 B
+2013-03-25 13:56:40,261 DEBUG [neo4j.diagnostics]:           _0.prx: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,261 DEBUG [neo4j.diagnostics]:           _0.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,262 DEBUG [neo4j.diagnostics]:           _0.tis: 2013-03-25T13:41:42+0000 - 38.00 B
+2013-03-25 13:56:40,262 DEBUG [neo4j.diagnostics]:           _1.fdt: 2013-03-25T13:41:42+0000 - 13.00 B
+2013-03-25 13:56:40,262 DEBUG [neo4j.diagnostics]:           _1.fdx: 2013-03-25T13:41:42+0000 - 12.00 B
+2013-03-25 13:56:40,262 DEBUG [neo4j.diagnostics]:           _1.fnm: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,263 DEBUG [neo4j.diagnostics]:           _1.frq: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,263 DEBUG [neo4j.diagnostics]:           _1.nrm: 2013-03-25T13:41:42+0000 - 6.00 B
+2013-03-25 13:56:40,263 DEBUG [neo4j.diagnostics]:           _1.prx: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,264 DEBUG [neo4j.diagnostics]:           _1.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,264 DEBUG [neo4j.diagnostics]:           _1.tis: 2013-03-25T13:41:42+0000 - 38.00 B
+2013-03-25 13:56:40,264 DEBUG [neo4j.diagnostics]:           _2.fdt: 2013-03-25T13:41:42+0000 - 13.00 B
+2013-03-25 13:56:40,264 DEBUG [neo4j.diagnostics]:           _2.fdx: 2013-03-25T13:41:42+0000 - 12.00 B
+2013-03-25 13:56:40,265 DEBUG [neo4j.diagnostics]:           _2.fnm: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,265 DEBUG [neo4j.diagnostics]:           _2.frq: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,265 DEBUG [neo4j.diagnostics]:           _2.nrm: 2013-03-25T13:41:42+0000 - 6.00 B
+2013-03-25 13:56:40,265 DEBUG [neo4j.diagnostics]:           _2.prx: 2013-03-25T13:41:42+0000 - 2.00 B
+2013-03-25 13:56:40,266 DEBUG [neo4j.diagnostics]:           _2.tii: 2013-03-25T13:41:42+0000 - 35.00 B
+2013-03-25 13:56:40,266 DEBUG [neo4j.diagnostics]:           _2.tis: 2013-03-25T13:41:42+0000 - 38.00 B
+2013-03-25 13:56:40,266 DEBUG [neo4j.diagnostics]:         - Total: 2013-03-25T13:41:42+0000 - 1.02 kB
+2013-03-25 13:56:40,266 DEBUG [neo4j.diagnostics]:       - Total: 2013-03-25T13:41:42+0000 - 8.99 kB
+2013-03-25 13:56:40,267 DEBUG [neo4j.diagnostics]:     - Total: 2013-03-25T13:41:41+0000 - 8.99 kB
+2013-03-25 13:56:40,267 DEBUG [neo4j.diagnostics]:     lucene-store.db: 2013-03-25T13:41:41+0000 - 40.00 B
+2013-03-25 13:56:40,267 DEBUG [neo4j.diagnostics]:     lucene.log.1: 2013-03-25T13:56:37+0000 - 16.00 B
+2013-03-25 13:56:40,268 DEBUG [neo4j.diagnostics]:     lucene.log.active: 2013-03-25T13:56:37+0000 - 4.00 B
+2013-03-25 13:56:40,268 DEBUG [neo4j.diagnostics]:     lucene.log.v0: 2013-03-25T13:41:41+0000 - 827.00 B
+2013-03-25 13:56:40,268 DEBUG [neo4j.diagnostics]:     lucene.log.v1: 2013-03-25T13:41:41+0000 - 16.00 B
+2013-03-25 13:56:40,269 DEBUG [neo4j.diagnostics]:     lucene.log.v2: 2013-03-25T13:41:41+0000 - 331.00 B
+2013-03-25 13:56:40,269 DEBUG [neo4j.diagnostics]:     lucene.log.v3: 2013-03-25T13:41:41+0000 - 1.48 kB
+2013-03-25 13:56:40,269 DEBUG [neo4j.diagnostics]:     lucene.log.v4: 2013-03-25T13:41:41+0000 - 5.47 kB
+2013-03-25 13:56:40,269 DEBUG [neo4j.diagnostics]:     lucene.log.v5: 2013-03-25T13:41:41+0000 - 1.45 kB
+2013-03-25 13:56:40,270 DEBUG [neo4j.diagnostics]:     lucene.log.v6: 2013-03-25T13:41:41+0000 - 16.00 B
+2013-03-25 13:56:40,270 DEBUG [neo4j.diagnostics]:     lucene.log.v7: 2013-03-25T13:41:41+0000 - 16.00 B
+2013-03-25 13:56:40,270 DEBUG [neo4j.diagnostics]:     lucene.log.v8: 2013-03-25T13:41:41+0000 - 16.00 B
+2013-03-25 13:56:40,270 DEBUG [neo4j.diagnostics]:     lucene.log.v9: 2013-03-25T13:41:41+0000 - 16.00 B
+2013-03-25 13:56:40,271 DEBUG [neo4j.diagnostics]:   - Total: 2013-03-25T13:56:37+0000 - 18.65 kB
+2013-03-25 13:56:40,271 DEBUG [neo4j.diagnostics]:   index.db: 2013-03-25T13:41:41+0000 - 469.00 B
+2013-03-25 13:56:40,271 DEBUG [neo4j.diagnostics]:   lock: 2013-03-25T13:56:38+0000 - 0.00 B
+2013-03-25 13:56:40,272 DEBUG [neo4j.diagnostics]:   messages.log: 2013-03-25T13:41:42+0000 - 885.82 kB
+2013-03-25 13:56:40,272 DEBUG [neo4j.diagnostics]:   neostore: 2013-03-25T13:56:37+0000 - 54.00 B
+2013-03-25 13:56:40,272 DEBUG [neo4j.diagnostics]:   neostore.id: 2013-03-25T13:41:42+0000 - 9.00 B
+2013-03-25 13:56:40,272 DEBUG [neo4j.diagnostics]:   neostore.nodestore.db: 2013-03-25T13:56:37+0000 - 270.00 B
+2013-03-25 13:56:40,273 DEBUG [neo4j.diagnostics]:   neostore.nodestore.db.id: 2013-03-25T13:41:42+0000 - 9.00 B
+2013-03-25 13:56:40,273 DEBUG [neo4j.diagnostics]:   neostore.propertystore.db: 2013-03-25T13:56:37+0000 - 1.40 kB
+2013-03-25 13:56:40,273 DEBUG [neo4j.diagnostics]:   neostore.propertystore.db.arrays: 2013-03-25T13:56:37+0000 - 128.00 B
+2013-03-25 13:56:40,273 DEBUG [neo4j.diagnostics]:   neostore.propertystore.db.arrays.id: 2013-03-25T13:41:42+0000 - 9.00 B
+2013-03-25 13:56:40,274 DEBUG [neo4j.diagnostics]:   neostore.propertystore.db.id: 2013-03-25T13:41:42+0000 - 9.00 B
+2013-03-25 13:56:40,274 DEBUG [neo4j.diagnostics]:   neostore.propertystore.db.index: 2013-03-25T13:56:37+0000 - 81.00 B
+2013-03-25 13:56:40,274 DEBUG [neo4j.diagnostics]:   neostore.propertystore.db.index.id: 2013-03-25T13:41:42+0000 - 9.00 B
+2013-03-25 13:56:40,274 DEBUG [neo4j.diagnostics]:   neostore.propertystore.db.index.keys: 2013-03-25T13:56:37+0000 - 380.00 B
+2013-03-25 13:56:40,275 DEBUG [neo4j.diagnostics]:   neostore.propertystore.db.index.keys.id: 2013-03-25T13:41:42+0000 - 9.00 B
+2013-03-25 13:56:40,275 DEBUG [neo4j.diagnostics]:   neostore.propertystore.db.strings: 2013-03-25T13:56:37+0000 - 896.00 B
+2013-03-25 13:56:40,275 DEBUG [neo4j.diagnostics]:   neostore.propertystore.db.strings.id: 2013-03-25T13:41:42+0000 - 9.00 B
+2013-03-25 13:56:40,276 DEBUG [neo4j.diagnostics]:   neostore.relationshipstore.db: 2013-03-25T13:56:37+0000 - 1.87 kB
+2013-03-25 13:56:40,276 DEBUG [neo4j.diagnostics]:   neostore.relationshipstore.db.id: 2013-03-25T13:41:42+0000 - 25.00 B
+2013-03-25 13:56:40,276 DEBUG [neo4j.diagnostics]:   neostore.relationshiptypestore.db: 2013-03-25T13:56:37+0000 - 45.00 B
+2013-03-25 13:56:40,276 DEBUG [neo4j.diagnostics]:   neostore.relationshiptypestore.db.id: 2013-03-25T13:41:42+0000 - 9.00 B
+2013-03-25 13:56:40,277 DEBUG [neo4j.diagnostics]:   neostore.relationshiptypestore.db.names: 2013-03-25T13:56:37+0000 - 380.00 B
+2013-03-25 13:56:40,277 DEBUG [neo4j.diagnostics]:   neostore.relationshiptypestore.db.names.id: 2013-03-25T13:41:42+0000 - 9.00 B
+2013-03-25 13:56:40,277 DEBUG [neo4j.diagnostics]:   nioneo_logical.log.1: 2013-03-25T13:56:37+0000 - 16.00 B
+2013-03-25 13:56:40,278 DEBUG [neo4j.diagnostics]:   nioneo_logical.log.active: 2013-03-25T13:56:37+0000 - 4.00 B
+2013-03-25 13:56:40,278 DEBUG [neo4j.diagnostics]:   nioneo_logical.log.v0: 2013-03-25T13:41:42+0000 - 1.59 kB
+2013-03-25 13:56:40,278 DEBUG [neo4j.diagnostics]:   nioneo_logical.log.v1: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,279 DEBUG [neo4j.diagnostics]:   nioneo_logical.log.v2: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,279 DEBUG [neo4j.diagnostics]:   nioneo_logical.log.v3: 2013-03-25T13:41:42+0000 - 1.93 kB
+2013-03-25 13:56:40,279 DEBUG [neo4j.diagnostics]:   nioneo_logical.log.v4: 2013-03-25T13:41:42+0000 - 23.40 kB
+2013-03-25 13:56:40,279 DEBUG [neo4j.diagnostics]:   nioneo_logical.log.v5: 2013-03-25T13:41:42+0000 - 9.61 kB
+2013-03-25 13:56:40,280 DEBUG [neo4j.diagnostics]:   nioneo_logical.log.v6: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,280 DEBUG [neo4j.diagnostics]:   nioneo_logical.log.v7: 2013-03-25T13:41:42+0000 - 439.00 B
+2013-03-25 13:56:40,280 DEBUG [neo4j.diagnostics]:   nioneo_logical.log.v8: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,281 DEBUG [neo4j.diagnostics]:   nioneo_logical.log.v9: 2013-03-25T13:41:42+0000 - 16.00 B
+2013-03-25 13:56:40,281 DEBUG [neo4j.diagnostics]:   store_lock: 2013-03-25T13:41:42+0000 - 0.00 B
+2013-03-25 13:56:40,281 DEBUG [neo4j.diagnostics]:   tm_tx_log.1: 2013-03-25T13:56:38+0000 - 0.00 B
+2013-03-25 13:56:40,281 DEBUG [neo4j.diagnostics]: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-03-25 13:56:40,282 INFO  [neo4j]: Started - database is now available
+2013-03-25 13:56:40,283 INFO  [neo4j]: GC Monitor started. 
+2013-03-25 13:56:40,905 DEBUG [neo4j.diagnostics]: --- SERVER STARTUP START ---
+2013-03-25 13:56:40,905 DEBUG [neo4j.diagnostics]: --- STARTUP diagnostics for org.neo4j.server.configuration.Configurator START ---
+2013-03-25 13:56:40,907 DEBUG [neo4j.diagnostics]: Server configuration:
+2013-03-25 13:56:40,907 DEBUG [neo4j.diagnostics]: org.neo4j.server.database.location = data/graph.db
+2013-03-25 13:56:40,907 DEBUG [neo4j.diagnostics]: org.neo4j.server.webserver.port = 7474
+2013-03-25 13:56:40,907 DEBUG [neo4j.diagnostics]: org.neo4j.server.webserver.https.enabled = true
+2013-03-25 13:56:40,907 DEBUG [neo4j.diagnostics]: org.neo4j.server.webserver.https.port = 7473
+2013-03-25 13:56:40,907 DEBUG [neo4j.diagnostics]: org.neo4j.server.webserver.https.cert.location = conf/ssl/snakeoil.cert
+2013-03-25 13:56:40,907 DEBUG [neo4j.diagnostics]: org.neo4j.server.webserver.https.key.location = conf/ssl/snakeoil.key
+2013-03-25 13:56:40,907 DEBUG [neo4j.diagnostics]: org.neo4j.server.webserver.https.keystore.location = data/keystore
+2013-03-25 13:56:40,907 DEBUG [neo4j.diagnostics]: org.neo4j.server.webadmin.rrdb.location = data/rrd
+2013-03-25 13:56:40,907 DEBUG [neo4j.diagnostics]: org.neo4j.server.db.tuning.properties = conf/neo4j.properties
+2013-03-25 13:56:40,907 DEBUG [neo4j.diagnostics]: org.neo4j.server.http.log.enabled = false
+2013-03-25 13:56:40,907 DEBUG [neo4j.diagnostics]: org.neo4j.server.http.log.config = conf/neo4j-http-logging.xml
+2013-03-25 13:56:40,907 DEBUG [neo4j.diagnostics]: org.neo4j.server.webadmin.management.uri = /db/manage/
+2013-03-25 13:56:40,907 DEBUG [neo4j.diagnostics]: org.neo4j.server.webadmin.data.uri = /db/data/
+2013-03-25 13:56:40,907 DEBUG [neo4j.diagnostics]: --- STARTUP diagnostics for org.neo4j.server.configuration.Configurator END ---
+2013-03-25 13:56:40,921 DEBUG [neo4j.diagnostics]: Mounted discovery module (org.neo4j.server.rest.discovery) at: /
+2013-03-25 13:56:40,953 DEBUG [neo4j.diagnostics]: Loaded server plugin "CypherPlugin" (org.neo4j.server.plugin.cypher.CypherPlugin)
+2013-03-25 13:56:40,960 DEBUG [neo4j.diagnostics]:   GraphDatabaseService.execute_query: execute a query
+2013-03-25 13:56:40,961 DEBUG [neo4j.diagnostics]: Loaded server plugin "GremlinPlugin" (org.neo4j.server.plugin.gremlin.GremlinPlugin)
+2013-03-25 13:56:40,961 DEBUG [neo4j.diagnostics]:   GraphDatabaseService.execute_script: execute a Gremlin script with 'g' set to the Neo4jGraph and 'results' containing the results. Only results of one object type is supported.
+2013-03-25 13:56:40,962 DEBUG [neo4j.diagnostics]: Mounted REST API at: /db/data/
+2013-03-25 13:56:40,963 DEBUG [neo4j.diagnostics]: Mounted management API at: /db/manage/
+2013-03-25 13:56:41,007 DEBUG [neo4j.diagnostics]: Mounted webadmin at: /webadmin
+2013-03-25 13:56:42,951 DEBUG [neo4j.diagnostics]: Server started on: http://localhost:7474/
+2013-03-25 13:56:42,952 DEBUG [neo4j.diagnostics]: --- SERVER STARTUP END ---
+2013-03-25 15:56:38,667 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 168ms [total block time: 0.168s]
