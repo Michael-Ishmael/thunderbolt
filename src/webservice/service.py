@@ -45,12 +45,14 @@ class Resource(object):
         return dict(items)
 
 
-class ResourceIndex(Resource):
-    def to_html(self):
-        html_item = lambda (name, value): '<div><a href="{value}">{name}</a></div>'.format(**vars())
-        items = map(html_item, self.content.items())
-        items = ''.join(items)
-        return '<html>{items}</html>'.format(**vars())
+class GenericResource(Resource):
+    def __init__(self, repository):
+        super(GenericResource, self).__init__(repository)
+
+    @cherrypy.tools.json_out()
+    def GET(self, index, id):
+        cherrypy.response.headers["Access-Control-Allow-Origin"] = "*"
+        entities = self.repository.GetEntitiesForIndex(index, id)
 
 if __name__ == "__main__":
 

@@ -10,6 +10,20 @@ class NeoRepository(object):
     def GetGraphDb(self):
         return neo4j.GraphDatabaseService(self.uri)
 
+    def GetEntitiesForIndex(self, index, filter):
+        query = "START n=node:{0}('id:{1}') RETURN n" \
+            .format(index, filter)
+        return query
+
+    def ExecuteQuery(self, query):
+        graph = self.GetGraphDb()
+        gResults = cypher.execute(graph, query)
+        results = 1
+
+    def GraphEntityToDict(self, neoResult):
+        return neoResult.__dict__
+
+
     def GetAllEntitiesQuery(self):
         query = "START rn=node:references('id:{0}') MATCH (rn)-[:{1}]->(e) RETURN e"\
             .format(str(self.refNodeId), self.refRelName )
