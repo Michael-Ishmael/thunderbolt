@@ -4,17 +4,17 @@
   <form>
     <label>
       <span>Title</span>
-      <input type="text" name="name" value="<%= @title %>">
+      <input type="text" name="title" value="<%= @title %>">
     </label>
 
     <label>
       <span>Readership</span>
-      <input type="text" name="email" value="<%= @readership %>">
+      <input type="text" name="readership" value="<%= @readership %>">
     </label>
 
     <label>
       <span>Page Rate</span>
-      <input type="text" name="email" value="<%= @pagerate %>">
+      <input type="text" name="pageRate" value="<%= @pageRate %>">
     </label>
 
     <button>Save</button>

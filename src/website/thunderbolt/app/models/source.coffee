@@ -1,7 +1,7 @@
 Spine = require('spine')
 
 class Source extends Spine.Model
-  @configure 'Source', 'id', 'title', 'readership', 'pagerate'
+  @configure 'Source', 'id', 'title', 'readership', 'pageRate'
 
   @extend Spine.Model.Ajax
 
