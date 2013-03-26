@@ -1,5 +1,6 @@
 import re
 import cherrypy
+from data.NeoData.NeoRepository import NeoRepository
 from data.NeoData.DocumentRepository import DocumentRepository
 from data.NeoData.SourceRepository import SourceRepository
 import simplejson
@@ -14,9 +15,9 @@ class Resource(object):
     def GET(self, id=-1):
         cherrypy.response.headers["Access-Control-Allow-Origin"] = "*"
         if id < 1:
-            return self.repository.GetItems()
+            return self.repository.GetAllEntities()
         else:
-            return self.repository.GetItem(id)
+            return self.repository.GetEntity(id)
 
     def OPTIONS(self):
         cherrypy.response.headers["Access-Control-Allow-Origin"] = "*"
@@ -60,8 +61,10 @@ if __name__ == "__main__":
 
     root = Root()
 
-    root.document = Resource(DocumentRepository())
-    root.source = Resource(SourceRepository())
+    docRepo = NeoRepository(2, "DOCUMENT", "documents")
+    root.document = Resource(docRepo)
+    sourceRepo = NeoRepository(1, "SOURCE", "sources")
+    root.source = Resource(sourceRepo)
     #root.sidewinder = Resource({'color': 'red', 'weight': 176, 'type': 'stable'})
     #root.teebird = Resource({'color': 'green', 'weight': 173, 'type': 'overstable'})
     #root.blowfly = Resource({'color': 'purple', 'weight': 169, 'type': 'putter'})
@@ -76,5 +79,6 @@ if __name__ == "__main__":
             'request.dispatch': cherrypy.dispatch.MethodDispatcher(),
         }
     }
-
+    cherrypy.server.stop()
     cherrypy.quickstart(root, '/', conf)
+

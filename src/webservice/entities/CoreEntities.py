@@ -1,10 +1,11 @@
 
+
 class Source:
     def __init__(self):
         self.id = -1
         self.title = ''
         self.readership = 0
-        self.pageRate = 0
+        self.pagerate = 0
 
 
 class Document:
