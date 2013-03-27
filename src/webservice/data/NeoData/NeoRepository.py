@@ -7,6 +7,7 @@ class NeoRepository(object):
         self.refNodeId = refNodeId
         self.refRelName = refRelName
         self.entityIndex = entityIndex
+        self.graphDB = self.GetGraphDb()
 
     def GetGraphDb(self):
         return neo4j.GraphDatabaseService(self.uri)
@@ -15,15 +16,6 @@ class NeoRepository(object):
         query = "START n=node:{0}('id:{1}') RETURN n" \
             .format(index, filter)
         return query
-
-    def ExecuteQuery(self, query):
-        graph = self.GetGraphDb()
-        gResults = cypher.execute(graph, query)
-        results = 1
-
-    def GraphEntityToDict(self, neoResult):
-        return neoResult.__dict__
-
 
     def GetAllEntitiesQuery(self):
         query = "START rn=node:references('id:{0}') MATCH (rn)-[:{1}]->(e) RETURN e"\
@@ -35,10 +27,9 @@ class NeoRepository(object):
             .format(str(self.entityIndex), entityId)
         return query
 
-    def CreateEntityQuery(self, entity):
-        query = "START rn=node:references('id:{0}') CREATE UNIQUE (rn)-[:{1}]->(e) RETURN e" \
-            .format(str(self.refNodeId), self.refRelName)
-        return query
+    def GetReferenceNode(self):
+        refNode = self.GetGraphDb().get_indexed_node("references", "id", str(self.refNodeId))
+        return refNode
 
     def GetAllEntities(self):
         query = self.GetAllEntitiesQuery()
@@ -50,11 +41,35 @@ class NeoRepository(object):
         neoResult = cypher.execute(self.GetGraphDb(), query)
         return self.GetSingleEntityFromNeoResult(neoResult)
 
-    def CreateEntity(self, entity):
-        query = self.CreateEntityQuery(entity)
+    def GetEntityFromTitle(self, title):
+        query = "start n = node:references('id:{0}') match n-[:{1}]->s where s.title =~ '(?i){2}.*' return s" \
+            .format(self.refNodeId, self.refRelName,title)
         neoResult = cypher.execute(self.GetGraphDb(), query)
         return self.GetSingleEntityFromNeoResult(neoResult)
 
+    def CreateEntity(self, entity):
+        newId = self.GetNextId()
+        entity["id"] = newId
+        refNode = self.GetReferenceNode()
+        newNode = self.graphDB.get_or_create_indexed_node(self.entityIndex, "id", str(newId), entity)
+        newNode.create_relationship_from(refNode, self.refRelName)
+        return newNode
+
+    def UpdateEntity(self, entity):
+        node = self.graphDB.get_indexed_node(self.entityIndex, "id", str(entity["id"]))
+        if node is not None:
+            node.set_properties(entity)
+        return node
+
+    def DeleteEntity(self, entityId):
+        node = self.graphDB.get_indexed_node(self.entityIndex, "id", str(entityId))
+        if node is not None:
+            rels = node.get_relationships()
+            for rel in rels:
+                self.graphDB.delete(rel)
+            self.graphDB.delete(node)
+            return True
+        return False
 
     def GetEntityCollectionFromNeoResult(self, neoResult):
         items = []
@@ -68,6 +83,32 @@ class NeoRepository(object):
         if len(items) > 0:
             return items[0]
         return None
+
+    def GetScalarResults(self, neoResult):
+        items = []
+        for result in neoResult[0]:
+            item = result[0]
+            items.append(item)
+        return items
+
+    def GetScalarResult(self, neoResult):
+        items = self.GetScalarResults(neoResult)
+        if len(items) > 0:
+            return items[0]
+        return None
+
+    def GetNextId(self):
+        query = "start n = node:{0}('id:*') return Max(n.id)".format(self.entityIndex)
+        result = self.executeQuery(query)
+        maxId = self.GetScalarResult(result)
+        if isinstance(maxId, int):
+            return maxId + 1
+        return -1
+
+    def executeQuery(self, query):
+        neoResult = cypher.execute(self.GetGraphDb(), query)
+        return neoResult
+
 
 
 
