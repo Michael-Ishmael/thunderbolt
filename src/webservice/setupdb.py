@@ -22,6 +22,7 @@ def createEntity(entity):
     graphDb.create((refNode, "REFERENCE", newNode))
     return newNode
 
+
 def removeOldDb():
     shutil.rmtree(neoPath + "neoTest\\data")
     shutil.copytree(neoPath + "neoClean\\data", neoPath + "neoTest\\data")

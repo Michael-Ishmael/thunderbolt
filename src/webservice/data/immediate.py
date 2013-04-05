@@ -1,20 +1,10 @@
-import NeoData.DocumentRepository as pr
-from entities.CoreEntities import Document
-import simplejson as json
+from Twitter.ApiWrapper import Wrapper
 
-# docList = []
-#
-# for i in range(1, 11):
-#     doc = Document()
-#     doc.id = i
-#     doc.title = 'Mr Fab' + str(i)
-#     doc.sourceId = 24 + i
-#     docList.append(doc.__dict__)
-#
-#
-# print json.dumps(docList)
 
-dr = pr.DocumentRepository()
-dr.GetDocument(2)
+wrapper = Wrapper()
+tweets = wrapper.Search("Welfare")
+
+for tweet in tweets:
+    print tweet
 
 __author__ = 'MichaelI'
